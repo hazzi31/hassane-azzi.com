@@ -1,19 +1,57 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+
 export const metadata: Metadata = {
-  title: "Hassane AZZI — Operations Research · Optimization · AI",
+  title: "Hassane AZZI | Operations Research, Optimization & AI",
   description:
-    "Personal website of Hassane AZZI — Operations Research, mathematical optimization, machine learning and software engineering.",
+    "Hassane AZZI is an Operations Research engineer specialized in mathematical optimization, artificial intelligence, machine learning and software engineering for complex industrial systems.",
+  keywords: [
+    "Hassane AZZI",
+    "Operations Research",
+    "Recherche opérationnelle",
+    "Mathematical Optimization",
+    "Optimization",
+    "Artificial Intelligence",
+    "AI",
+    "Machine Learning",
+    "Software Engineering",
+    "Decision Support Systems",
+    "MILP",
+    "MINLP",
+    "Energy Systems",
+    "Toulouse",
+    "France",
+  ],
   metadataBase: new URL("https://www.hassane-azzi.com"),
+  alternates: {
+    canonical: "https://www.hassane-azzi.com/",
+  },
+  authors: [
+    {
+      name: "Hassane AZZI",
+      url: "https://www.hassane-azzi.com/",
+    },
+  ],
+  creator: "Hassane AZZI",
+  publisher: "Hassane AZZI",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
-    title: "Hassane AZZI — Optimization · AI · Software",
+    title: "Hassane AZZI | Operations Research, Optimization & AI",
     description:
-      "I build intelligent, optimized solutions for complex industrial systems.",
-    url: "https://www.hassane-azzi.com",
+      "Operations Research engineer specialized in mathematical optimization, AI, machine learning and software engineering.",
+    url: "https://www.hassane-azzi.com/",
     siteName: "Hassane AZZI",
-    type: "website"
-  }
+    type: "website",
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({
