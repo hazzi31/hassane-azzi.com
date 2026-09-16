@@ -104,8 +104,8 @@ export default function Home() {
   <Image
     src="/optim-decision-logo-header.png"
     alt="Optim & Decision"
-    width={210}
-    height={82}
+    width={300}
+    height={150}
     priority
   />
 </a>
