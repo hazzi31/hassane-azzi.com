@@ -17,12 +17,27 @@ body {
 }
 a { color: inherit; text-decoration: none; }
 .nav {
-  position: fixed; z-index: 20; top: 0; left: 0; right: 0;
-  height: 78px; display: flex; align-items: center; justify-content: space-between;
-  padding: 0 4vw; background: rgba(243,241,235,.86); backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(16,16,15,.08);
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+  background: rgba(243, 241, 235, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(16, 16, 15, 0.08);
 }
 .brand, footer b { font-size: 1.35rem; font-weight: 900; letter-spacing: -.08em; }
+.brand img {
+  display: block;
+  width: 175px;
+  height: 76px;
+  object-fit: contain;
+}
 .brand span, footer span { color: #6e9e00; }
 .nav nav { display: flex; gap: 26px; font-size: .76rem; text-transform: uppercase; letter-spacing: .08em; }
 .nav nav a:hover, .footer-links a:hover { opacity: .55; }

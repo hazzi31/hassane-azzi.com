@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import {
   ArrowUpRight,
   Github,
@@ -98,7 +100,16 @@ export default function Home() {
   return (
     <main>
       <header className="nav">
-        <a href="#top" className="brand">HA<span>.</span></a>
+        <a href="#top" className="brand">
+  <Image
+    src="/optim-decision-logo-header.png"
+    alt="Optim & Decision"
+    width={175}
+    height={76}
+    priority
+  />
+</a>
+
         <nav>
           <a href="#about">About</a>
           <a href="#expertise">Expertise</a>
