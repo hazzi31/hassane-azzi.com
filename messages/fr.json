@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "about": "À propos",
+    "expertise": "Expertise",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "education": "Formation",
+    "contact": "Contact",
+    "letsTalk": "Me contacter"
+  },
+
+  "hero": {
+    "eyebrow": "Recherche opérationnelle · Optimisation · Machine Learning",
+    "title": "Concevoir de meilleures décisions grâce à l’optimisation et à l’IA.",
+    "description": "Ingénieur en recherche opérationnelle spécialisé en optimisation, machine learning et ingénierie logicielle, avec une expérience dans le développement et l’industrialisation de solutions d’aide à la décision pour les systèmes énergétiques et les systèmes complexes.",
+    "viewProjects": "Voir les projets",
+    "contactMe": "Me contacter"
+  },
+
+  "about": {
+    "label": "À propos",
+    "title": "Des modèles mathématiques aux systèmes d’aide à la décision prêts pour la production.",
+    "text1": "Je suis ingénieur en recherche opérationnelle, avec une solide expérience en optimisation mathématique, machine learning et ingénierie logicielle.",
+    "text2": "Mon travail consiste à transformer des problèmes industriels complexes en solutions fiables d’aide à la décision, depuis la modélisation mathématique et la conception d’algorithmes jusqu’à l’intégration logicielle et la mise en production.",
+    "text3": "J’apprécie particulièrement les projets à l’intersection de l’optimisation, de l’intelligence artificielle, des systèmes énergétiques et des logiciels industriels."
+  },
+
+  "expertise": {
+    "label": "Expertise",
+    "title": "Une approche multidisciplinaire des problèmes complexes.",
+
+    "optimization": {
+      "title": "Optimisation",
+      "description": "Programmation linéaire en nombres entiers, programmation non linéaire et optimisation combinatoire avec CPLEX, Gurobi, LocalSolver, OR-Tools, GLPK, Pyomo et PuLP."
+    },
+
+    "machineLearning": {
+      "title": "Machine Learning",
+      "description": "Machine learning et deep learning avec Python, Scikit-Learn, TensorFlow, NumPy, Pandas et MLflow."
+    },
+
+    "softwareEngineering": {
+      "title": "Ingénierie logicielle",
+      "description": "C++ moderne, Java et Python avec Spring Boot, Kafka, Maven, Docker, Kubernetes et les outils CI/CD."
+    },
+
+    "energySystems": {
+      "title": "Systèmes énergétiques",
+      "description": "Systèmes d’aide à la décision, gestion de l’énergie, EMS, SCADA et optimisation appliqués aux systèmes énergétiques complexes."
+    }
+  },
+
+  "projects": {
+    "label": "Projets sélectionnés",
+    "title": "Des projets combinant optimisation, IA et logiciels industriels.",
+
+    "enerbird": {
+      "title": "ENERBIRD — Gestion hybride de l’énergie",
+      "description": "Système de gestion de l’énergie combinant algorithmes d’optimisation, traitement des données et architecture microservices pour les systèmes énergétiques hybrides."
+    },
+
+    "e3s": {
+      "title": "E3S — Energy Smart Sailing Ship",
+      "description": "Développement d’un système de gestion de l’énergie pour un voilier intelligent, combinant des algorithmes d’optimisation en C++ et une architecture microservices avec Spring Boot."
+    },
+
+    "substation": {
+      "title": "Simulation de poste électrique haute tension",
+      "description": "Travaux de simulation et de modélisation appliqués aux postes électriques haute tension et aux infrastructures énergétiques complexes."
+    },
+
+    "airTraffic": {
+      "title": "Résolution de conflits dans le trafic aérien",
+      "description": "Approches de recherche opérationnelle pour la détection et la résolution des conflits dans la gestion du trafic aérien."
+    }
+  },
+
+  "experience": {
+    "label": "Expérience",
+    "title": "Expérience professionnelle",
+
+    "naldeo": {
+      "company": "Naldeo Digital for Climate",
+      "period": "2024 — Aujourd’hui",
+      "role": "Ingénieur recherche opérationnelle / optimisation",
+      "description": "Développement de solutions d’optimisation et d’aide à la décision pour des applications énergétiques et industrielles."
+    },
+
+    "scle": {
+      "company": "SCLE SFE",
+      "period": "2022 — 2024",
+      "role": "Ingénieur logiciel / optimisation",
+      "description": "Développement et intégration de solutions logicielles pour les systèmes énergétiques et les applications industrielles."
+    },
+
+    "segula": {
+      "company": "SEGULA Technologies",
+      "period": "2018 — 2022",
+      "role": "Ingénieur logiciel / recherche opérationnelle",
+      "description": "Ingénierie logicielle, optimisation et activités de recherche appliquées aux systèmes industriels complexes."
+    },
+
+    "segulaResearch": {
+      "company": "SEGULA Research & Innovation",
+      "period": "2018",
+      "role": "Ingénieur de recherche",
+      "description": "Activités de recherche et développement dans les domaines de l’optimisation et des systèmes intelligents d’aide à la décision."
+    }
+  },
+
+  "education": {
+    "label": "Formation",
+    "title": "Formation & certifications",
+
+    "master": {
+      "title": "Master / MSc en informatique — Recherche opérationnelle & optimisation",
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
+      "period": "2016 — 2018"
+    },
+
+    "dataScience": {
+      "title": "Data Science appliquée & Machine Learning",
+      "institution": "Columbia Engineering & Emeritus",
+      "description": "Formation avancée en data science et machine learning."
+    }
+  },
+
+  "contact": {
+    "label": "Contact",
+    "title": "Construisons ensemble de meilleures décisions.",
+    "description": "Vous travaillez sur l’optimisation, le machine learning, l’ingénierie logicielle ou les systèmes énergétiques ? N’hésitez pas à me contacter.",
+    "email": "M’envoyer un e-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "builtWith": "Développé avec Next.js, TypeScript et des technologies web modernes."
+  }
+}

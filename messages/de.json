@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "expertise": "Expertise",
+    "projects": "Projekte",
+    "experience": "Berufserfahrung",
+    "education": "Ausbildung",
+    "contact": "Kontakt",
+    "letsTalk": "Kontakt aufnehmen"
+  },
+
+  "hero": {
+    "eyebrow": "Operations Research · Optimierung · Machine Learning",
+    "title": "Bessere Entscheidungen durch Optimierung und KI.",
+    "description": "Ingenieur für Operations Research mit Schwerpunkt auf Optimierung, Machine Learning und Software Engineering sowie Erfahrung in der Entwicklung und Industrialisierung von Entscheidungsunterstützungssystemen für Energie- und komplexe Systeme.",
+    "viewProjects": "Projekte ansehen",
+    "contactMe": "Kontakt aufnehmen"
+  },
+
+  "about": {
+    "label": "Über mich",
+    "title": "Von mathematischen Modellen zu produktionsreifen Entscheidungsunterstützungssystemen.",
+    "text1": "Ich bin Ingenieur für Operations Research mit fundiertem Hintergrund in mathematischer Optimierung, Machine Learning und Software Engineering.",
+    "text2": "Meine Arbeit konzentriert sich darauf, komplexe industrielle Probleme in zuverlässige Lösungen zur Entscheidungsunterstützung umzuwandeln – von der mathematischen Modellierung und Algorithmenentwicklung bis zur Softwareintegration und Inbetriebnahme.",
+    "text3": "Besonders interessant finde ich Projekte an der Schnittstelle von Optimierung, künstlicher Intelligenz, Energiesystemen und industrieller Software."
+  },
+
+  "expertise": {
+    "label": "Expertise",
+    "title": "Ein multidisziplinärer Ansatz für komplexe Probleme.",
+
+    "optimization": {
+      "title": "Optimierung",
+      "description": "MILP, MINLP und kombinatorische Optimierung mit CPLEX, Gurobi, LocalSolver, OR-Tools, GLPK, Pyomo und PuLP."
+    },
+
+    "machineLearning": {
+      "title": "Machine Learning",
+      "description": "Machine Learning und Deep Learning mit Python, Scikit-Learn, TensorFlow, NumPy, Pandas und MLflow."
+    },
+
+    "softwareEngineering": {
+      "title": "Software Engineering",
+      "description": "Modernes C++, Java und Python mit Spring Boot, Kafka, Maven, Docker, Kubernetes und CI/CD."
+    },
+
+    "energySystems": {
+      "title": "Energiesysteme",
+      "description": "Entscheidungsunterstützungssysteme, Energiemanagement, EMS, SCADA und Optimierung für komplexe Energiesysteme."
+    }
+  },
+
+  "projects": {
+    "label": "Ausgewählte Projekte",
+    "title": "Projekte an der Schnittstelle von Optimierung, KI und industrieller Software.",
+
+    "enerbird": {
+      "title": "ENERBIRD — Hybrides Energiemanagement",
+      "description": "Energiemanagementsystem mit Optimierungsalgorithmen, Datenverarbeitung und Microservices-Architektur für hybride Energiesysteme."
+    },
+
+    "e3s": {
+      "title": "E3S — Energy Smart Sailing Ship",
+      "description": "Entwicklung eines Energiemanagementsystems für ein intelligentes Segelschiff mit C++-Optimierungsalgorithmen und einer Spring-Boot-Microservices-Architektur."
+    },
+
+    "substation": {
+      "title": "Simulation eines Hochspannungsumspannwerks",
+      "description": "Simulations- und Modellierungsarbeiten für Hochspannungsumspannwerke und komplexe Energieinfrastrukturen."
+    },
+
+    "airTraffic": {
+      "title": "Konfliktlösung im Luftverkehr",
+      "description": "Operations-Research-Ansätze zur Erkennung und Lösung von Konflikten im Luftverkehrsmanagement."
+    }
+  },
+
+  "experience": {
+    "label": "Berufserfahrung",
+    "title": "Berufliche Erfahrung",
+
+    "naldeo": {
+      "company": "Naldeo Digital for Climate",
+      "period": "2024 — Heute",
+      "role": "Ingenieur Operations Research / Optimierung",
+      "description": "Entwicklung von Optimierungs- und Entscheidungsunterstützungslösungen für Energie- und Industrieanwendungen."
+    },
+
+    "scle": {
+      "company": "SCLE SFE",
+      "period": "2022 — 2024",
+      "role": "Software- / Optimierungsingenieur",
+      "description": "Entwicklung und Integration von Softwarelösungen für Energiesysteme und industrielle Anwendungen."
+    },
+
+    "segula": {
+      "company": "SEGULA Technologies",
+      "period": "2018 — 2022",
+      "role": "Software- / Operations-Research-Ingenieur",
+      "description": "Software Engineering, Optimierung und Forschungsaktivitäten für komplexe industrielle Systeme."
+    },
+
+    "segulaResearch": {
+      "company": "SEGULA Research & Innovation",
+      "period": "2018",
+      "role": "Forschungsingenieur",
+      "description": "Forschungs- und Entwicklungsarbeiten in den Bereichen Optimierung und intelligente Entscheidungsunterstützungssysteme."
+    }
+  },
+
+  "education": {
+    "label": "Ausbildung",
+    "title": "Ausbildung & Zertifikate",
+
+    "master": {
+      "title": "Master / MSc Informatik — Operations Research & Optimierung",
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
+      "period": "2016 — 2018"
+    },
+
+    "dataScience": {
+      "title": "Angewandte Data Science & Machine Learning",
+      "institution": "Columbia Engineering & Emeritus",
+      "description": "Fortgeschrittene Ausbildung in Data Science und Machine Learning."
+    }
+  },
+
+  "contact": {
+    "label": "Kontakt",
+    "title": "Lassen Sie uns gemeinsam bessere Entscheidungen entwickeln.",
+    "description": "Sie arbeiten an Optimierung, Machine Learning, Software Engineering oder Energiesystemen? Kontaktieren Sie mich gerne.",
+    "email": "E-Mail senden",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit Next.js, TypeScript und modernen Webtechnologien."
+  }
+}
