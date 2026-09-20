@@ -114,28 +114,14 @@ export default async function Home({
           </div>
 
           <div className="hero-visual">
-            <div className="orb orb-a"/>
-            <div className="orb orb-b"/>
-            <div className="portrait-card">
-              <div className="portrait-top">
-                <span>HASSANE AZZI</span><span>01 / 01</span>
-              </div>
-              <Image
-                src="https://avatars.githubusercontent.com/u/35087369?v=4"
-                alt="Hassane AZZI"
-                width={400}
-                height={400}
-              />
-              <div className="portrait-bottom">
-                <span>ENGINEER · RESEARCHER</span>
-                <span>TOULOUSE / FRANCE</span>
-              </div>
-            </div>
-            <div className="math-card">
-              <span>OPTIMIZE</span>
-              <b>min&nbsp; f(x)</b>
-              <small>s.t. Ax ≤ b</small>
-            </div>
+            <Image
+              src="/logo-personnel.png"
+              alt="Hassane AZZI"
+              width={500}
+              height={500}
+              className="hero-logo"
+              priority
+            />
           </div>
         </div>
         <div className="scroll-note"><span/> {t('hero.scrollNote')}</div>
