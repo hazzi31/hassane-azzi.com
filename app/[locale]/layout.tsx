@@ -11,18 +11,21 @@ const metaByLocale = {
     description:
       "Hassane AZZI is an Operations Research engineer specialized in mathematical optimization, artificial intelligence, machine learning and software engineering for complex industrial systems.",
     ogLocale: "en_US",
+    imageAlt: "Hassane AZZI — Operations Research, Optimization & AI",
   },
   fr: {
     title: "Hassane AZZI | Recherche opérationnelle, Optimisation & IA",
     description:
       "Hassane AZZI est un ingénieur en recherche opérationnelle spécialisé en optimisation mathématique, intelligence artificielle, machine learning et ingénierie logicielle pour les systèmes industriels complexes.",
     ogLocale: "fr_FR",
+    imageAlt: "Hassane AZZI — Recherche opérationnelle, Optimisation & IA",
   },
   de: {
     title: "Hassane AZZI | Operations Research, Optimierung & KI",
     description:
       "Hassane AZZI ist ein Operations-Research-Ingenieur mit Schwerpunkt auf mathematischer Optimierung, künstlicher Intelligenz, Machine Learning und Software Engineering für komplexe Industriesysteme.",
     ogLocale: "de_DE",
+    imageAlt: "Hassane AZZI — Operations Research, Optimierung & KI",
   },
 };
 
@@ -88,7 +91,7 @@ export async function generateMetadata({
           url: "https://www.hassane-azzi.com/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Hassane AZZI — Operations Research, Optimization & AI",
+          alt: meta.imageAlt,
         },
       ],
     },
