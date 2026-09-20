@@ -49,6 +49,7 @@ const certData: Record<string, {title: string; org: string; url: string}[]> = {
     { title: "Operations Research & Optimization Projects With Python", org: "Udemy", url: "https://www.udemy.com/certificate/UC-ff4626ff-60c2-4e85-9ed1-27bb6b63475c/" },
     { title: "Optimization with Python: Solve Operations Research Problems", org: "Udemy", url: "https://www.udemy.com/certificate/UC-6180b999-613c-4407-8367-a0d76cb363f4/" },
     { title: "Pyomo Bootcamp: Python Optimization from Beginner to Advance", org: "Udemy", url: "https://www.udemy.com/certificate/UC-2979b0a3-f16a-48a8-ae11-7ceba1854269/" },
+    { title: "Decision Making Under Uncertainty", org: "CatchWisdom", url: "https://catchwisdom.com/certificate/verify/1008351CW1226495" },
   ],
   ml: [
     { title: "Mathematics for Machine Learning and Data Science", org: "DeepLearning.AI", url: "https://www.coursera.org/account/accomplishments/specialization/2HM0J7K2W3JL" },
