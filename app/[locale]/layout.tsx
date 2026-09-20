@@ -83,6 +83,20 @@ export async function generateMetadata({
       siteName: "Hassane AZZI",
       type: "website",
       locale: meta.ogLocale,
+      images: [
+        {
+          url: "https://www.hassane-azzi.com/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "Hassane AZZI — Operations Research, Optimization & AI",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["https://www.hassane-azzi.com/og-image.png"],
     },
   };
 }
