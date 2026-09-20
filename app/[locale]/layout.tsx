@@ -60,11 +60,12 @@ export async function generateMetadata({
     ],
     metadataBase: new URL("https://www.hassane-azzi.com"),
     alternates: {
-      canonical: `https://www.hassane-azzi.com/${locale}/`,
+      canonical: `https://www.hassane-azzi.com/${locale}`,
       languages: {
-        en: "https://www.hassane-azzi.com/en/",
-        fr: "https://www.hassane-azzi.com/fr/",
-        de: "https://www.hassane-azzi.com/de/",
+        en: "https://www.hassane-azzi.com/en",
+        fr: "https://www.hassane-azzi.com/fr",
+        de: "https://www.hassane-azzi.com/de",
+        "x-default": "https://www.hassane-azzi.com/en",
       },
     },
     authors: [{name: "Hassane AZZI", url: "https://www.hassane-azzi.com/"}],
@@ -78,7 +79,7 @@ export async function generateMetadata({
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: `https://www.hassane-azzi.com/${locale}/`,
+      url: `https://www.hassane-azzi.com/${locale}`,
       siteName: "Hassane AZZI",
       type: "website",
       locale: meta.ogLocale,
