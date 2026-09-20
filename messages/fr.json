@@ -8,134 +8,134 @@
     "contact": "Contact",
     "letsTalk": "Me contacter"
   },
-
   "hero": {
-    "eyebrow": "Recherche opérationnelle · Optimisation · Machine Learning",
-    "title": "Concevoir de meilleures décisions grâce à l’optimisation et à l’IA.",
-    "description": "Ingénieur en recherche opérationnelle spécialisé en optimisation, machine learning et ingénierie logicielle, avec une expérience dans le développement et l’industrialisation de solutions d’aide à la décision pour les systèmes énergétiques et les systèmes complexes.",
-    "viewProjects": "Voir les projets",
-    "contactMe": "Me contacter"
+    "eyebrow": "RECHERCHE OPÉRATIONNELLE · OPTIMISATION · IA",
+    "titlePart1": "Je transforme des problèmes complexes en ",
+    "titleEmphasis": "meilleures décisions.",
+    "description": "Je suis Hassane AZZI, ingénieur spécialisé en optimisation mathématique, machine learning et ingénierie logicielle. Je conçois des solutions d'aide à la décision intelligentes pour des systèmes industriels exigeants.",
+    "exploreWork": "Voir mes projets",
+    "viewFullProfile": "Voir mon profil complet",
+    "scrollNote": "Défiler pour explorer"
   },
-
+  "marquee": "OPTIMISATION ✦ MACHINE LEARNING ✦ C++ MODERNE ✦ SYSTÈMES ÉNERGÉTIQUES ✦ AIDE À LA DÉCISION ✦ ",
   "about": {
-    "label": "À propos",
-    "title": "Des modèles mathématiques aux systèmes d’aide à la décision prêts pour la production.",
-    "text1": "Je suis ingénieur en recherche opérationnelle, avec une solide expérience en optimisation mathématique, machine learning et ingénierie logicielle.",
-    "text2": "Mon travail consiste à transformer des problèmes industriels complexes en solutions fiables d’aide à la décision, depuis la modélisation mathématique et la conception d’algorithmes jusqu’à l’intégration logicielle et la mise en production.",
-    "text3": "J’apprécie particulièrement les projets à l’intersection de l’optimisation, de l’intelligence artificielle, des systèmes énergétiques et des logiciels industriels."
+    "label": "À PROPOS",
+    "titlePart1": "Mathématiques, algorithmes et ",
+    "titleEmphasis": "impact concret.",
+    "bigCopy1": "Mon profil se situe à l'intersection de la ",
+    "bigCopyBold1": "recherche opérationnelle",
+    "bigCopy2": ", de l'",
+    "bigCopyBold2": "ingénierie logicielle",
+    "bigCopy3": " et de la ",
+    "bigCopyBold3": "data science",
+    "bigCopy4": ".",
+    "text": "J'aime transformer un problème industriel complexe en un modèle précis, choisir le bon algorithme, puis convertir le résultat en logiciel de production robuste. Mon expérience couvre les systèmes énergétiques, l'aéronautique, la simulation et les applications d'aide à la décision.",
+    "factMsc": "Recherche opérationnelle & optimisation",
+    "factEnac": "Écosystème d'ingénierie de Toulouse",
+    "factLanguages": "Langages principaux : C++ · Java · Python"
   },
-
   "expertise": {
-    "label": "Expertise",
-    "title": "Une approche multidisciplinaire des problèmes complexes.",
-
-    "optimization": {
-      "title": "Optimisation",
-      "description": "Programmation linéaire en nombres entiers, programmation non linéaire et optimisation combinatoire avec CPLEX, Gurobi, LocalSolver, OR-Tools, GLPK, Pyomo et PuLP."
-    },
-
-    "machineLearning": {
-      "title": "Machine Learning",
-      "description": "Machine learning et deep learning avec Python, Scikit-Learn, TensorFlow, NumPy, Pandas et MLflow."
-    },
-
-    "softwareEngineering": {
-      "title": "Ingénierie logicielle",
-      "description": "C++ moderne, Java et Python avec Spring Boot, Kafka, Maven, Docker, Kubernetes et les outils CI/CD."
-    },
-
-    "energySystems": {
-      "title": "Systèmes énergétiques",
-      "description": "Systèmes d’aide à la décision, gestion de l’énergie, EMS, SCADA et optimisation appliqués aux systèmes énergétiques complexes."
+    "label": "EXPERTISE",
+    "titlePart1": "Du modèle à la ",
+    "titleEmphasis": "production.",
+    "subtitle": "Profondeur scientifique avec l'état d'esprit d'un ingénieur logiciel.",
+    "skills": {
+      "optimization": { "title": "Optimisation", "desc": "MILP · MINLP · CP · MPC · Métaheuristiques" },
+      "ml": { "title": "Machine Learning", "desc": "Python · Scikit-learn · TensorFlow · MLflow" },
+      "software": { "title": "Ingénierie logicielle", "desc": "C++ moderne · Java · Python · Spring Boot" },
+      "industrial": { "title": "Systèmes industriels", "desc": "Énergie · EMS · SCADA · Simulation" },
+      "cloud": { "title": "Cloud & DevOps", "desc": "Docker · Kubernetes · Kafka · CI/CD" },
+      "data": { "title": "Données & calcul scientifique", "desc": "NumPy · Pandas · Pyomo · Gurobi · CPLEX" }
     }
   },
-
   "projects": {
-    "label": "Projets sélectionnés",
-    "title": "Des projets combinant optimisation, IA et logiciels industriels.",
-
-    "enerbird": {
-      "title": "ENERBIRD — Gestion hybride de l’énergie",
-      "description": "Système de gestion de l’énergie combinant algorithmes d’optimisation, traitement des données et architecture microservices pour les systèmes énergétiques hybrides."
-    },
-
-    "e3s": {
-      "title": "E3S — Energy Smart Sailing Ship",
-      "description": "Développement d’un système de gestion de l’énergie pour un voilier intelligent, combinant des algorithmes d’optimisation en C++ et une architecture microservices avec Spring Boot."
-    },
-
-    "substation": {
-      "title": "Simulation de poste électrique haute tension",
-      "description": "Travaux de simulation et de modélisation appliqués aux postes électriques haute tension et aux infrastructures énergétiques complexes."
-    },
-
-    "airTraffic": {
-      "title": "Résolution de conflits dans le trafic aérien",
-      "description": "Approches de recherche opérationnelle pour la détection et la résolution des conflits dans la gestion du trafic aérien."
+    "label": "PROJETS SÉLECTIONNÉS",
+    "titlePart1": "Des problèmes qui méritent ",
+    "titleEmphasis": "d'être résolus.",
+    "subtitle": "Une sélection de projets techniques et de recherche dans les domaines de l'énergie, de l'aéronautique et des logiciels industriels.",
+    "items": {
+      "p01": {
+        "category": "Optimisation · Énergie · Machine Learning",
+        "title": "ENERBIRD / Gestion hybride de l'énergie",
+        "text": "Contrôle optimal et gestion de l'énergie pour des centrales hybrides d'énergie renouvelable combinant solaire/éolien et stockage par batteries. Les modèles d'optimisation sont couplés à des prévisions et des contraintes opérationnelles en temps réel."
+      },
+      "p02": {
+        "category": "Recherche & Innovation · Énergie",
+        "title": "E3S — Energy Smart Sailing Ship",
+        "text": "Système intelligent de gestion d'énergie hybride pour un voilier à grande autonomie. Le projet combine sources renouvelables, génération diesel et stockage par batteries avec une optimisation robuste face à l'incertitude météorologique."
+      },
+      "p03": {
+        "category": "Ingénierie logicielle · C++",
+        "title": "Simulation de poste électrique haute tension",
+        "text": "Développement logiciel backend pour la simulation de cartes de postes électriques haute tension, avec un focus sur la fiabilité, l'architecture, les tests et la maintenabilité en C++ moderne."
+      },
+      "p04": {
+        "category": "Recherche opérationnelle · Aéronautique",
+        "title": "Résolution de conflits dans le trafic aérien",
+        "text": "Approches exactes et approchées pour résoudre les conflits aériens, explorant la modélisation mathématique, l'optimisation combinatoire et les métaheuristiques dans un contexte de gestion du trafic aérien."
+      }
     }
   },
-
   "experience": {
-    "label": "Expérience",
-    "title": "Expérience professionnelle",
-
-    "naldeo": {
-      "company": "Naldeo Digital for Climate",
-      "period": "2024 — Aujourd’hui",
-      "role": "Ingénieur recherche opérationnelle / optimisation",
-      "description": "Développement de solutions d’optimisation et d’aide à la décision pour des applications énergétiques et industrielles."
-    },
-
-    "scle": {
-      "company": "SCLE SFE",
-      "period": "2022 — 2024",
-      "role": "Ingénieur logiciel / optimisation",
-      "description": "Développement et intégration de solutions logicielles pour les systèmes énergétiques et les applications industrielles."
-    },
-
-    "segula": {
-      "company": "SEGULA Technologies",
-      "period": "2018 — 2022",
-      "role": "Ingénieur logiciel / recherche opérationnelle",
-      "description": "Ingénierie logicielle, optimisation et activités de recherche appliquées aux systèmes industriels complexes."
-    },
-
-    "segulaResearch": {
-      "company": "SEGULA Research & Innovation",
-      "period": "2018",
-      "role": "Ingénieur de recherche",
-      "description": "Activités de recherche et développement dans les domaines de l’optimisation et des systèmes intelligents d’aide à la décision."
+    "label": "EXPÉRIENCE",
+    "titlePart1": "Un parcours construit autour des ",
+    "titleEmphasis": "systèmes complexes.",
+    "items": {
+      "e01": {
+        "date": "2024 — présent",
+        "role": "Ingénieur optimisation & machine learning",
+        "company": "Naldeo Digital for Climate",
+        "place": "Tarnos · France",
+        "text": "Solutions d'optimisation, de prévision et logicielles pour les systèmes hybrides d'énergie renouvelable et le stockage par batteries."
+      },
+      "e02": {
+        "date": "2022 — 2024",
+        "role": "Ingénieur développement logiciel · C++",
+        "company": "SCLE SFE",
+        "place": "Toulouse · France",
+        "text": "Développement backend et logiciels de simulation pour les postes électriques haute tension."
+      },
+      "e03": {
+        "date": "2018 — 2022",
+        "role": "Ingénieur logiciel · C++ / Java",
+        "company": "SEGULA Technologies",
+        "place": "Brest · France",
+        "text": "Activités d'ingénierie logicielle dans le cadre du projet de recherche E3S, avec développement C++ et Java."
+      },
+      "e04": {
+        "date": "2018",
+        "role": "Ingénieur recherche & innovation",
+        "company": "SEGULA Technologies",
+        "place": "Cherbourg · France",
+        "text": "Projet de recherche sur la gestion intelligente de l'énergie, l'optimisation robuste et l'incertitude dans les systèmes d'énergie renouvelable."
+      }
     }
   },
-
   "education": {
-    "label": "Formation",
-    "title": "Formation & certifications",
-
+    "label": "FORMATION",
+    "titlePart1": "Fondements ",
+    "titleEmphasis": "scientifiques.",
     "master": {
-      "title": "Master / MSc en informatique — Recherche opérationnelle & optimisation",
-      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
-      "period": "2016 — 2018"
+      "kicker": "MASTER · 2016 — 2018",
+      "title": "Informatique — Recherche opérationnelle & optimisation",
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
     },
-
-    "dataScience": {
+    "cert": {
+      "kicker": "CERTIFICAT · 2019",
       "title": "Data Science appliquée & Machine Learning",
-      "institution": "Columbia Engineering & Emeritus",
-      "description": "Formation avancée en data science et machine learning."
+      "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
-
   "contact": {
-    "label": "Contact",
-    "title": "Construisons ensemble de meilleures décisions.",
-    "description": "Vous travaillez sur l’optimisation, le machine learning, l’ingénierie logicielle ou les systèmes énergétiques ? N’hésitez pas à me contacter.",
-    "email": "M’envoyer un e-mail",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "label": "CONTACT",
+    "titlePart1": "Résolvons ensemble quelque chose ",
+    "titleEmphasis": "d'intéressant.",
+    "text": "Ouvert aux opportunités d'ingénierie et aux projets techniques ambitieux autour de l'optimisation, de l'IA et de l'ingénierie logicielle.",
+    "cta": "M'envoyer un e-mail",
+    "location": "Toulouse · France",
+    "languages": "FR · EN · DE"
   },
-
   "footer": {
-    "rights": "Tous droits réservés.",
-    "builtWith": "Développé avec Next.js, TypeScript et des technologies web modernes."
+    "copyright": "© 2026 Hassane AZZI"
   }
 }

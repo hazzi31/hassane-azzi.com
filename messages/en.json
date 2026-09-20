@@ -8,134 +8,134 @@
     "contact": "Contact",
     "letsTalk": "Let's talk"
   },
-
   "hero": {
-    "eyebrow": "Operations Research · Optimization · Machine Learning",
-    "title": "Engineering better decisions through optimization and AI.",
-    "description": "Operations Research Engineer specialized in optimization, machine learning and software engineering, with experience developing and industrializing decision-support solutions for energy and complex systems.",
-    "viewProjects": "View projects",
-    "contactMe": "Contact me"
+    "eyebrow": "OPERATIONS RESEARCH · OPTIMIZATION · AI",
+    "titlePart1": "I turn complex problems into ",
+    "titleEmphasis": "better decisions.",
+    "description": "I'm Hassane AZZI, an engineer specialized in mathematical optimization, machine learning and software engineering. I design intelligent decision-support solutions for demanding industrial systems.",
+    "exploreWork": "Explore my work",
+    "viewFullProfile": "View full profile",
+    "scrollNote": "Scroll to explore"
   },
-
+  "marquee": "OPTIMIZATION ✦ MACHINE LEARNING ✦ MODERN C++ ✦ ENERGY SYSTEMS ✦ DECISION SUPPORT ✦ ",
   "about": {
-    "label": "About",
-    "title": "From mathematical models to production-ready decision systems.",
-    "text1": "I am an Operations Research Engineer with a strong background in mathematical optimization, machine learning and software engineering.",
-    "text2": "My work focuses on transforming complex industrial problems into reliable decision-support solutions, from mathematical modeling and algorithm design to software integration and production.",
-    "text3": "I particularly enjoy working at the intersection of optimization, AI, energy systems and industrial software."
+    "label": "ABOUT",
+    "titlePart1": "Mathematics, algorithms and ",
+    "titleEmphasis": "real-world impact.",
+    "bigCopy1": "My background sits at the intersection of ",
+    "bigCopyBold1": "operations research",
+    "bigCopy2": ", ",
+    "bigCopyBold2": "software engineering",
+    "bigCopy3": " and ",
+    "bigCopyBold3": "data science",
+    "bigCopy4": ".",
+    "text": "I enjoy turning a messy industrial problem into a precise model, selecting the right algorithm, then turning the result into robust production software. My experience spans energy systems, aeronautics, simulation and decision-support applications.",
+    "factMsc": "Operations Research & Optimization",
+    "factEnac": "Toulouse engineering ecosystem",
+    "factLanguages": "Core languages: C++ · Java · Python"
   },
-
   "expertise": {
-    "label": "Expertise",
-    "title": "A multidisciplinary approach to complex problems.",
-
-    "optimization": {
-      "title": "Optimization",
-      "description": "MILP, MINLP and combinatorial optimization using CPLEX, Gurobi, LocalSolver, OR-Tools, GLPK, Pyomo and PuLP."
-    },
-
-    "machineLearning": {
-      "title": "Machine Learning",
-      "description": "Machine learning and deep learning with Python, Scikit-Learn, TensorFlow, NumPy, Pandas and MLflow."
-    },
-
-    "softwareEngineering": {
-      "title": "Software Engineering",
-      "description": "Modern C++, Java and Python with Spring Boot, Kafka, Maven, Docker, Kubernetes and CI/CD."
-    },
-
-    "energySystems": {
-      "title": "Energy Systems",
-      "description": "Decision-support systems, energy management, EMS, SCADA and optimization applied to complex energy systems."
+    "label": "EXPERTISE",
+    "titlePart1": "From model to ",
+    "titleEmphasis": "production.",
+    "subtitle": "Scientific depth with a software engineer's mindset.",
+    "skills": {
+      "optimization": { "title": "Optimization", "desc": "MILP · MINLP · CP · MPC · Metaheuristics" },
+      "ml": { "title": "Machine Learning", "desc": "Python · Scikit-learn · TensorFlow · MLflow" },
+      "software": { "title": "Software Engineering", "desc": "Modern C++ · Java · Python · Spring Boot" },
+      "industrial": { "title": "Industrial Systems", "desc": "Energy · EMS · SCADA · Simulation" },
+      "cloud": { "title": "Cloud & DevOps", "desc": "Docker · Kubernetes · Kafka · CI/CD" },
+      "data": { "title": "Data & Scientific Computing", "desc": "NumPy · Pandas · Pyomo · Gurobi · CPLEX" }
     }
   },
-
   "projects": {
-    "label": "Selected projects",
-    "title": "Projects combining optimization, AI and industrial software.",
-
-    "enerbird": {
-      "title": "ENERBIRD — Hybrid Energy Management",
-      "description": "Energy Management System combining optimization algorithms, data processing and microservices architecture for hybrid energy systems."
-    },
-
-    "e3s": {
-      "title": "E3S — Energy Smart Sailing Ship",
-      "description": "Development of an Energy Management System for a smart sailing ship, combining optimization algorithms in C++ with a Spring Boot microservices architecture."
-    },
-
-    "substation": {
-      "title": "High-Voltage Substation Simulation",
-      "description": "Simulation and modeling work applied to high-voltage electrical substations and complex energy infrastructures."
-    },
-
-    "airTraffic": {
-      "title": "Air Traffic Conflict Resolution",
-      "description": "Operations Research approaches for detecting and resolving conflicts in air traffic management."
+    "label": "SELECTED WORK",
+    "titlePart1": "Problems worth ",
+    "titleEmphasis": "solving.",
+    "subtitle": "A selection of technical and research projects across energy, aeronautics and industrial software.",
+    "items": {
+      "p01": {
+        "category": "Optimization · Energy · Machine Learning",
+        "title": "ENERBIRD / Hybrid Energy Management",
+        "text": "Optimal control and energy management for hybrid renewable power plants combining solar/wind generation and battery storage. Optimization models are coupled with forecasting and real-time operational constraints."
+      },
+      "p02": {
+        "category": "Research & Innovation · Energy",
+        "title": "E3S — Energy Smart Sailing Ship",
+        "text": "Hybrid intelligent energy-management system for a long-range sailing ship. The project combines renewable sources, diesel generation and battery storage with robust optimization under weather uncertainty."
+      },
+      "p03": {
+        "category": "Software Engineering · C++",
+        "title": "High-Voltage Substation Simulation",
+        "text": "Backend software development for simulation of high-voltage substation cards, with a strong focus on reliability, architecture, testing and maintainable modern C++."
+      },
+      "p04": {
+        "category": "Operations Research · Aeronautics",
+        "title": "Air Traffic Conflict Resolution",
+        "text": "Exact and approximate approaches for resolving aircraft conflicts, exploring mathematical modeling, combinatorial optimization and metaheuristics in an air-traffic-management context."
+      }
     }
   },
-
   "experience": {
-    "label": "Experience",
-    "title": "Professional experience",
-
-    "naldeo": {
-      "company": "Naldeo Digital for Climate",
-      "period": "2024 — Present",
-      "role": "Operations Research / Optimization Engineer",
-      "description": "Development of optimization and decision-support solutions for energy and industrial applications."
-    },
-
-    "scle": {
-      "company": "SCLE SFE",
-      "period": "2022 — 2024",
-      "role": "Software / Optimization Engineer",
-      "description": "Development and integration of software solutions for energy systems and industrial applications."
-    },
-
-    "segula": {
-      "company": "SEGULA Technologies",
-      "period": "2018 — 2022",
-      "role": "Software / Operations Research Engineer",
-      "description": "Software engineering, optimization and research activities applied to complex industrial systems."
-    },
-
-    "segulaResearch": {
-      "company": "SEGULA Research & Innovation",
-      "period": "2018",
-      "role": "Research Engineer",
-      "description": "Research and development activities in optimization and intelligent decision-support systems."
+    "label": "EXPERIENCE",
+    "titlePart1": "A path built around ",
+    "titleEmphasis": "complex systems.",
+    "items": {
+      "e01": {
+        "date": "2024 — present",
+        "role": "Optimization & Machine Learning Engineer",
+        "company": "Naldeo Digital for Climate",
+        "place": "Tarnos · France",
+        "text": "Optimization, forecasting and software solutions for hybrid renewable-energy systems and battery storage."
+      },
+      "e02": {
+        "date": "2022 — 2024",
+        "role": "Software Development Engineer · C++",
+        "company": "SCLE SFE",
+        "place": "Toulouse · France",
+        "text": "Backend development and simulation software for high-voltage electrical-substation systems."
+      },
+      "e03": {
+        "date": "2018 — 2022",
+        "role": "Software Engineer · C++ / Java",
+        "company": "SEGULA Technologies",
+        "place": "Brest · France",
+        "text": "Software engineering activities following the E3S research project, with C++ and Java development."
+      },
+      "e04": {
+        "date": "2018",
+        "role": "Research & Innovation Engineer",
+        "company": "SEGULA Technologies",
+        "place": "Cherbourg · France",
+        "text": "Research project on intelligent energy management, robust optimization and uncertainty in renewable-energy systems."
+      }
     }
   },
-
   "education": {
-    "label": "Education",
-    "title": "Education & certifications",
-
+    "label": "EDUCATION",
+    "titlePart1": "Scientific ",
+    "titleEmphasis": "foundations.",
     "master": {
-      "title": "Master / MSc in Computer Science — Operations Research & Optimization",
-      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
-      "period": "2016 — 2018"
+      "kicker": "MASTER'S DEGREE · 2016 — 2018",
+      "title": "Computer Science — Operations Research & Optimization",
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
     },
-
-    "dataScience": {
+    "cert": {
+      "kicker": "CERTIFICATE · 2019",
       "title": "Applied Data Science & Machine Learning",
-      "institution": "Columbia Engineering & Emeritus",
-      "description": "Advanced training in data science and machine learning."
+      "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
-
   "contact": {
-    "label": "Contact",
-    "title": "Let's build better decisions together.",
-    "description": "Interested in optimization, machine learning, software engineering or energy systems? Feel free to get in touch.",
-    "email": "Email me",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "label": "CONTACT",
+    "titlePart1": "Let's solve something ",
+    "titleEmphasis": "interesting.",
+    "text": "Open to engineering opportunities and technically challenging projects around optimization, AI and software engineering.",
+    "cta": "Send me an email",
+    "location": "Toulouse · France",
+    "languages": "FR · EN · DE"
   },
-
   "footer": {
-    "rights": "All rights reserved.",
-    "builtWith": "Built with Next.js, TypeScript and modern web technologies."
+    "copyright": "© 2026 Hassane AZZI"
   }
 }

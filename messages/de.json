@@ -8,134 +8,134 @@
     "contact": "Kontakt",
     "letsTalk": "Kontakt aufnehmen"
   },
-
   "hero": {
-    "eyebrow": "Operations Research · Optimierung · Machine Learning",
-    "title": "Bessere Entscheidungen durch Optimierung und KI.",
-    "description": "Ingenieur für Operations Research mit Schwerpunkt auf Optimierung, Machine Learning und Software Engineering sowie Erfahrung in der Entwicklung und Industrialisierung von Entscheidungsunterstützungssystemen für Energie- und komplexe Systeme.",
-    "viewProjects": "Projekte ansehen",
-    "contactMe": "Kontakt aufnehmen"
+    "eyebrow": "OPERATIONS RESEARCH · OPTIMIERUNG · KI",
+    "titlePart1": "Ich mache aus komplexen Problemen ",
+    "titleEmphasis": "bessere Entscheidungen.",
+    "description": "Ich bin Hassane AZZI, Ingenieur spezialisiert auf mathematische Optimierung, Machine Learning und Software Engineering. Ich entwickle intelligente Entscheidungsunterstützungslösungen für anspruchsvolle Industriesysteme.",
+    "exploreWork": "Meine Projekte erkunden",
+    "viewFullProfile": "Vollständiges Profil ansehen",
+    "scrollNote": "Zum Erkunden scrollen"
   },
-
+  "marquee": "OPTIMIERUNG ✦ MACHINE LEARNING ✦ MODERNES C++ ✦ ENERGIESYSTEME ✦ ENTSCHEIDUNGSUNTERSTÜTZUNG ✦ ",
   "about": {
-    "label": "Über mich",
-    "title": "Von mathematischen Modellen zu produktionsreifen Entscheidungsunterstützungssystemen.",
-    "text1": "Ich bin Ingenieur für Operations Research mit fundiertem Hintergrund in mathematischer Optimierung, Machine Learning und Software Engineering.",
-    "text2": "Meine Arbeit konzentriert sich darauf, komplexe industrielle Probleme in zuverlässige Lösungen zur Entscheidungsunterstützung umzuwandeln – von der mathematischen Modellierung und Algorithmenentwicklung bis zur Softwareintegration und Inbetriebnahme.",
-    "text3": "Besonders interessant finde ich Projekte an der Schnittstelle von Optimierung, künstlicher Intelligenz, Energiesystemen und industrieller Software."
+    "label": "ÜBER MICH",
+    "titlePart1": "Mathematik, Algorithmen und ",
+    "titleEmphasis": "reale Wirkung.",
+    "bigCopy1": "Mein Hintergrund liegt an der Schnittstelle von ",
+    "bigCopyBold1": "Operations Research",
+    "bigCopy2": ", ",
+    "bigCopyBold2": "Software Engineering",
+    "bigCopy3": " und ",
+    "bigCopyBold3": "Data Science",
+    "bigCopy4": ".",
+    "text": "Ich entwickle aus einem unstrukturierten Industrieproblem ein präzises Modell, wähle den richtigen Algorithmus und überführe das Ergebnis in robuste Produktionssoftware. Meine Erfahrung umfasst Energiesysteme, Luftfahrt, Simulation und Entscheidungsunterstützungsanwendungen.",
+    "factMsc": "Operations Research & Optimierung",
+    "factEnac": "Ingenieur-Ökosystem Toulouse",
+    "factLanguages": "Hauptsprachen: C++ · Java · Python"
   },
-
   "expertise": {
-    "label": "Expertise",
-    "title": "Ein multidisziplinärer Ansatz für komplexe Probleme.",
-
-    "optimization": {
-      "title": "Optimierung",
-      "description": "MILP, MINLP und kombinatorische Optimierung mit CPLEX, Gurobi, LocalSolver, OR-Tools, GLPK, Pyomo und PuLP."
-    },
-
-    "machineLearning": {
-      "title": "Machine Learning",
-      "description": "Machine Learning und Deep Learning mit Python, Scikit-Learn, TensorFlow, NumPy, Pandas und MLflow."
-    },
-
-    "softwareEngineering": {
-      "title": "Software Engineering",
-      "description": "Modernes C++, Java und Python mit Spring Boot, Kafka, Maven, Docker, Kubernetes und CI/CD."
-    },
-
-    "energySystems": {
-      "title": "Energiesysteme",
-      "description": "Entscheidungsunterstützungssysteme, Energiemanagement, EMS, SCADA und Optimierung für komplexe Energiesysteme."
+    "label": "EXPERTISE",
+    "titlePart1": "Vom Modell zur ",
+    "titleEmphasis": "Produktion.",
+    "subtitle": "Wissenschaftliche Tiefe mit dem Mindset eines Software-Ingenieurs.",
+    "skills": {
+      "optimization": { "title": "Optimierung", "desc": "MILP · MINLP · CP · MPC · Metaheuristiken" },
+      "ml": { "title": "Machine Learning", "desc": "Python · Scikit-learn · TensorFlow · MLflow" },
+      "software": { "title": "Software Engineering", "desc": "Modernes C++ · Java · Python · Spring Boot" },
+      "industrial": { "title": "Industriesysteme", "desc": "Energie · EMS · SCADA · Simulation" },
+      "cloud": { "title": "Cloud & DevOps", "desc": "Docker · Kubernetes · Kafka · CI/CD" },
+      "data": { "title": "Daten & wissenschaftliches Rechnen", "desc": "NumPy · Pandas · Pyomo · Gurobi · CPLEX" }
     }
   },
-
   "projects": {
-    "label": "Ausgewählte Projekte",
-    "title": "Projekte an der Schnittstelle von Optimierung, KI und industrieller Software.",
-
-    "enerbird": {
-      "title": "ENERBIRD — Hybrides Energiemanagement",
-      "description": "Energiemanagementsystem mit Optimierungsalgorithmen, Datenverarbeitung und Microservices-Architektur für hybride Energiesysteme."
-    },
-
-    "e3s": {
-      "title": "E3S — Energy Smart Sailing Ship",
-      "description": "Entwicklung eines Energiemanagementsystems für ein intelligentes Segelschiff mit C++-Optimierungsalgorithmen und einer Spring-Boot-Microservices-Architektur."
-    },
-
-    "substation": {
-      "title": "Simulation eines Hochspannungsumspannwerks",
-      "description": "Simulations- und Modellierungsarbeiten für Hochspannungsumspannwerke und komplexe Energieinfrastrukturen."
-    },
-
-    "airTraffic": {
-      "title": "Konfliktlösung im Luftverkehr",
-      "description": "Operations-Research-Ansätze zur Erkennung und Lösung von Konflikten im Luftverkehrsmanagement."
+    "label": "AUSGEWÄHLTE PROJEKTE",
+    "titlePart1": "Probleme, die es wert sind, ",
+    "titleEmphasis": "gelöst zu werden.",
+    "subtitle": "Eine Auswahl technischer und Forschungsprojekte in den Bereichen Energie, Luftfahrt und Industriesoftware.",
+    "items": {
+      "p01": {
+        "category": "Optimierung · Energie · Machine Learning",
+        "title": "ENERBIRD / Hybrides Energiemanagement",
+        "text": "Optimale Steuerung und Energiemanagement für hybride erneuerbare Kraftwerke mit Solar-/Windkraft und Batteriespeicherung. Die Optimierungsmodelle sind mit Prognosen und Echtzeitbetriebsrestriktionen gekoppelt."
+      },
+      "p02": {
+        "category": "Forschung & Innovation · Energie",
+        "title": "E3S — Energy Smart Sailing Ship",
+        "text": "Hybrides intelligentes Energiemanagementsystem für ein Langstrecken-Segelschiff. Das Projekt kombiniert erneuerbare Quellen, Dieselerzeugung und Batteriespeicherung mit robuster Optimierung bei Wetterunsicherheit."
+      },
+      "p03": {
+        "category": "Software Engineering · C++",
+        "title": "Simulation eines Hochspannungsumspannwerks",
+        "text": "Backend-Softwareentwicklung für die Simulation von Hochspannungsumspannwerkkarten mit starkem Fokus auf Zuverlässigkeit, Architektur, Tests und wartbares modernes C++."
+      },
+      "p04": {
+        "category": "Operations Research · Luftfahrt",
+        "title": "Konfliktlösung im Luftverkehr",
+        "text": "Exakte und approximative Ansätze zur Lösung von Flugzeugkonflikten mit mathematischer Modellierung, kombinatorischer Optimierung und Metaheuristiken im Kontext des Luftverkehrsmanagements."
+      }
     }
   },
-
   "experience": {
-    "label": "Berufserfahrung",
-    "title": "Berufliche Erfahrung",
-
-    "naldeo": {
-      "company": "Naldeo Digital for Climate",
-      "period": "2024 — Heute",
-      "role": "Ingenieur Operations Research / Optimierung",
-      "description": "Entwicklung von Optimierungs- und Entscheidungsunterstützungslösungen für Energie- und Industrieanwendungen."
-    },
-
-    "scle": {
-      "company": "SCLE SFE",
-      "period": "2022 — 2024",
-      "role": "Software- / Optimierungsingenieur",
-      "description": "Entwicklung und Integration von Softwarelösungen für Energiesysteme und industrielle Anwendungen."
-    },
-
-    "segula": {
-      "company": "SEGULA Technologies",
-      "period": "2018 — 2022",
-      "role": "Software- / Operations-Research-Ingenieur",
-      "description": "Software Engineering, Optimierung und Forschungsaktivitäten für komplexe industrielle Systeme."
-    },
-
-    "segulaResearch": {
-      "company": "SEGULA Research & Innovation",
-      "period": "2018",
-      "role": "Forschungsingenieur",
-      "description": "Forschungs- und Entwicklungsarbeiten in den Bereichen Optimierung und intelligente Entscheidungsunterstützungssysteme."
+    "label": "BERUFSERFAHRUNG",
+    "titlePart1": "Ein Weg rund um ",
+    "titleEmphasis": "komplexe Systeme.",
+    "items": {
+      "e01": {
+        "date": "2024 — heute",
+        "role": "Ingenieur für Optimierung & Machine Learning",
+        "company": "Naldeo Digital for Climate",
+        "place": "Tarnos · Frankreich",
+        "text": "Optimierungs-, Prognose- und Softwarelösungen für hybride erneuerbare Energiesysteme und Batteriespeicherung."
+      },
+      "e02": {
+        "date": "2022 — 2024",
+        "role": "Software-Entwicklungsingenieur · C++",
+        "company": "SCLE SFE",
+        "place": "Toulouse · Frankreich",
+        "text": "Backend-Entwicklung und Simulationssoftware für Hochspannungsumspannwerksysteme."
+      },
+      "e03": {
+        "date": "2018 — 2022",
+        "role": "Software-Ingenieur · C++ / Java",
+        "company": "SEGULA Technologies",
+        "place": "Brest · Frankreich",
+        "text": "Software-Engineering im Rahmen des E3S-Forschungsprojekts mit C++- und Java-Entwicklung."
+      },
+      "e04": {
+        "date": "2018",
+        "role": "Forschungs- & Innovationsingenieur",
+        "company": "SEGULA Technologies",
+        "place": "Cherbourg · Frankreich",
+        "text": "Forschungsprojekt zu intelligentem Energiemanagement, robuster Optimierung und Unsicherheit in erneuerbaren Energiesystemen."
+      }
     }
   },
-
   "education": {
-    "label": "Ausbildung",
-    "title": "Ausbildung & Zertifikate",
-
+    "label": "AUSBILDUNG",
+    "titlePart1": "Wissenschaftliche ",
+    "titleEmphasis": "Grundlagen.",
     "master": {
-      "title": "Master / MSc Informatik — Operations Research & Optimierung",
-      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
-      "period": "2016 — 2018"
+      "kicker": "MASTER · 2016 — 2018",
+      "title": "Informatik — Operations Research & Optimierung",
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
     },
-
-    "dataScience": {
+    "cert": {
+      "kicker": "ZERTIFIKAT · 2019",
       "title": "Angewandte Data Science & Machine Learning",
-      "institution": "Columbia Engineering & Emeritus",
-      "description": "Fortgeschrittene Ausbildung in Data Science und Machine Learning."
+      "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
-
   "contact": {
-    "label": "Kontakt",
-    "title": "Lassen Sie uns gemeinsam bessere Entscheidungen entwickeln.",
-    "description": "Sie arbeiten an Optimierung, Machine Learning, Software Engineering oder Energiesystemen? Kontaktieren Sie mich gerne.",
-    "email": "E-Mail senden",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "label": "KONTAKT",
+    "titlePart1": "Lassen Sie uns gemeinsam etwas ",
+    "titleEmphasis": "Interessantes lösen.",
+    "text": "Offen für Engineering-Möglichkeiten und technisch anspruchsvolle Projekte rund um Optimierung, KI und Software Engineering.",
+    "cta": "E-Mail senden",
+    "location": "Toulouse · Frankreich",
+    "languages": "FR · EN · DE"
   },
-
   "footer": {
-    "rights": "Alle Rechte vorbehalten.",
-    "builtWith": "Erstellt mit Next.js, TypeScript und modernen Webtechnologien."
+    "copyright": "© 2026 Hassane AZZI"
   }
 }
