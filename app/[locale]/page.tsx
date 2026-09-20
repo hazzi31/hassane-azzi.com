@@ -90,6 +90,14 @@ export default async function Home({
       <section className="hero section" id="top">
         <div className="hero-grid">
           <div className="hero-copy">
+            <Image
+              src="/optim-decision-logo.png"
+              alt="Optim & Decision"
+              width={210}
+              height={140}
+              className="hero-brand"
+              priority
+            />
             <p className="eyebrow">{t('hero.eyebrow')}</p>
             <h1>
               {t('hero.titlePart1')}<em>{t('hero.titleEmphasis')}</em>
