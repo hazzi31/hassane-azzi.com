@@ -83,31 +83,68 @@
     "items": {
       "e01": {
         "date": "2024 — present",
+        "dateDetail": "May 2024 — Present",
+        "type": "Consulting",
         "role": "Optimization & Machine Learning Engineer",
         "company": "Naldeo Digital for Climate",
         "place": "Tarnos · France",
-        "text": "Optimization, forecasting and software solutions for hybrid renewable-energy systems and battery storage."
+        "text": "Supporting clients in the development of optimal management solutions for hybrid energy systems in non-interconnected zones (ZNI), with a focus on real-time optimization and production forecasting for renewable power plants.",
+        "missions": [
+          "Develop optimal management solutions for hybrid renewable energy systems (solar, wind, battery storage) in non-interconnected zones",
+          "Maximize hybrid power plant revenues through real-time production optimization",
+          "Optimize energy dispatch according to announced programs and actual plant conditions",
+          "Build and continuously update production forecasting models for operational planning",
+          "Clients: Omexom, Valorem, Urbasolar — Territories: Corsica, Martinique, Guadeloupe, Réunion, Mayotte"
+        ],
+        "tech": "Python · MILP · MINLP · Pyomo · Machine Learning · SCADA · Real-Time Optimization"
       },
       "e02": {
         "date": "2022 — 2024",
+        "dateDetail": "March 2022 — April 2024",
+        "type": "Permanent",
         "role": "Software Development Engineer · C++",
         "company": "SCLE SFE",
         "place": "Toulouse · France",
-        "text": "Backend development and simulation software for high-voltage electrical-substation systems."
+        "text": "Back-end development of Vcard, a software application for simulating high-voltage substation cards, within the Reliability engineering team.",
+        "missions": [
+          "Develop and maintain the Vcard simulation software for high-voltage electrical substation cards",
+          "Design and implement back-end architecture for reliability-critical software systems",
+          "Write and maintain comprehensive automated test suites (unit and integration)",
+          "Apply modern C++ best practices: RAII, design patterns, static analysis, code review"
+        ],
+        "tech": "C++ · Simulation · Back-End Architecture · Unit Testing · Reliability Engineering"
       },
       "e03": {
         "date": "2018 — 2022",
+        "dateDetail": "December 2018 — February 2022",
+        "type": "Freelance",
         "role": "Software Engineer · C++ / Java",
         "company": "SEGULA Technologies",
         "place": "Brest · France",
-        "text": "Software engineering activities following the E3S research project, with C++ and Java development."
+        "text": "Software development phase of the E3S (Energy Smart Sailing Ship) project: design and implementation of the embedded energy management system and its optimization algorithms.",
+        "missions": [
+          "Implement and optimize the C++ EMS core for the E3S hybrid energy system",
+          "Develop Java components within the project's service-oriented architecture",
+          "Integrate energy optimization models (GLPK) with real-time operational constraints",
+          "Validate and test the hybrid EMS across multiple energy source scenarios"
+        ],
+        "tech": "C++ · Java · GLPK · EMS · Optimization · MATLAB"
       },
       "e04": {
         "date": "2018",
+        "dateDetail": "March 2018 — August 2018",
+        "type": "Internship",
         "role": "Research & Innovation Engineer",
         "company": "SEGULA Technologies",
         "place": "Cherbourg · France",
-        "text": "Research project on intelligent energy management, robust optimization and uncertainty in renewable-energy systems."
+        "text": "Research and prototyping of a hybrid intelligent energy management system (EMS) for a long-range sailing vessel equipped with multiple renewable energy sources, as part of the E3S project.",
+        "missions": [
+          "Design a hybrid intelligent EMS managing solar, wind, hydrogenerator, diesel and battery sources",
+          "Model and optimize energy production and consumption flows on board",
+          "Formulate and solve robust optimization models under weather and operational uncertainty",
+          "Ensure navigation safety and passenger comfort through reliable energy management"
+        ],
+        "tech": "C++ · GLPK · EMS · Robust Optimization · MATLAB · Renewable Energy Systems"
       }
     }
   },

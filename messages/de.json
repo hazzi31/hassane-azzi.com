@@ -83,31 +83,68 @@
     "items": {
       "e01": {
         "date": "2024 — heute",
+        "dateDetail": "Mai 2024 — Heute",
+        "type": "Beratung",
         "role": "Ingenieur für Optimierung & Machine Learning",
         "company": "Naldeo Digital for Climate",
         "place": "Tarnos · Frankreich",
-        "text": "Optimierungs-, Prognose- und Softwarelösungen für hybride erneuerbare Energiesysteme und Batteriespeicherung."
+        "text": "Unterstützung von Kunden bei der Entwicklung optimaler Managementlösungen für hybride Energiesysteme in nicht vernetzten Zonen (ZNI), mit Fokus auf Echtzeit-Optimierung und Erzeugungsprognosen für Erneuerbare-Energie-Anlagen.",
+        "missions": [
+          "Entwicklung optimaler Managementlösungen für hybride Energiesysteme (Solar, Wind, Batteriespeicher) in nicht vernetzten Zonen",
+          "Maximierung der Anlagenerlöse durch Echtzeit-Produktionsoptimierung",
+          "Optimierung des Energiedispatching gemäß angekündigten Programmen und realem Anlagenzustand",
+          "Aufbau und kontinuierliche Aktualisierung von Erzeugungsprognosemodellen für den operativen Betrieb",
+          "Kunden: Omexom, Valorem, Urbasolar — Gebiete: Korsika, Martinique, Guadeloupe, Réunion, Mayotte"
+        ],
+        "tech": "Python · MILP · MINLP · Pyomo · Machine Learning · SCADA · Echtzeit-Optimierung"
       },
       "e02": {
         "date": "2022 — 2024",
+        "dateDetail": "März 2022 — April 2024",
+        "type": "Festanstellung",
         "role": "Software-Entwicklungsingenieur · C++",
         "company": "SCLE SFE",
         "place": "Toulouse · Frankreich",
-        "text": "Backend-Entwicklung und Simulationssoftware für Hochspannungsumspannwerksysteme."
+        "text": "Backend-Entwicklung der Software Vcard, einer Anwendung zur Simulation von Hochspannungsumspannwerk-Karten, im Reliability-Engineering-Team.",
+        "missions": [
+          "Entwicklung und Wartung der Vcard-Simulationssoftware für Hochspannungsumspannwerk-Karten",
+          "Entwurf und Implementierung der Backend-Architektur für zuverlässigkeitskritische Softwaresysteme",
+          "Erstellung und Pflege umfassender automatisierter Testsuiten (Unit- und Integrationstests)",
+          "Anwendung moderner C++-Best-Practices: RAII, Design Patterns, statische Analyse, Code Review"
+        ],
+        "tech": "C++ · Simulation · Backend-Architektur · Unit Testing · Reliability Engineering"
       },
       "e03": {
         "date": "2018 — 2022",
+        "dateDetail": "Dezember 2018 — Februar 2022",
+        "type": "Freiberuflich",
         "role": "Software-Ingenieur · C++ / Java",
         "company": "SEGULA Technologies",
         "place": "Brest · Frankreich",
-        "text": "Software-Engineering im Rahmen des E3S-Forschungsprojekts mit C++- und Java-Entwicklung."
+        "text": "Softwareentwicklungsphase des E3S-Projekts (Energy Smart Sailing Ship): Entwurf und Implementierung des eingebetteten Energiemanagementsystems und seiner Optimierungsalgorithmen.",
+        "missions": [
+          "Implementierung und Optimierung des C++-Kerns des EMS für das hybride E3S-Energiesystem",
+          "Entwicklung von Java-Komponenten in der serviceorientierten Projektarchitektur",
+          "Integration von Energieoptimierungsmodellen (GLPK) mit Echtzeit-Betriebsrestriktionen",
+          "Validierung und Test des hybriden EMS in verschiedenen Energiequellen-Szenarien"
+        ],
+        "tech": "C++ · Java · GLPK · EMS · Optimierung · MATLAB"
       },
       "e04": {
         "date": "2018",
+        "dateDetail": "März 2018 — August 2018",
+        "type": "Praktikum",
         "role": "Forschungs- & Innovationsingenieur",
         "company": "SEGULA Technologies",
         "place": "Cherbourg · Frankreich",
-        "text": "Forschungsprojekt zu intelligentem Energiemanagement, robuster Optimierung und Unsicherheit in erneuerbaren Energiesystemen."
+        "text": "Forschung und Prototypentwicklung eines hybriden intelligenten Energiemanagementsystems (EMS) für ein Hochseesegels chiff mit mehreren erneuerbaren Energiequellen im Rahmen des E3S-Projekts.",
+        "missions": [
+          "Entwurf eines hybriden intelligenten EMS zur Verwaltung von Solar-, Wind-, Hydrogenerator-, Diesel- und Batteriequellen",
+          "Modellierung und Optimierung der Energie-Erzeugungs- und -Verbrauchsflüsse an Bord",
+          "Formulierung und Lösung robuster Optimierungsmodelle unter meteorologischer und operativer Unsicherheit",
+          "Sicherstellung der Navigationssicherheit und des Passagierkomforts durch zuverlässiges Energiemanagement"
+        ],
+        "tech": "C++ · GLPK · EMS · Robuste Optimierung · MATLAB · Erneuerbare Energiesysteme"
       }
     }
   },

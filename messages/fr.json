@@ -83,31 +83,68 @@
     "items": {
       "e01": {
         "date": "2024 — présent",
+        "dateDetail": "Mai 2024 — Présent",
+        "type": "Prestation",
         "role": "Ingénieur optimisation & machine learning",
         "company": "Naldeo Digital for Climate",
         "place": "Tarnos · France",
-        "text": "Solutions d'optimisation, de prévision et logicielles pour les systèmes hybrides d'énergie renouvelable et le stockage par batteries."
+        "text": "Accompagnement de clients dans le développement de solutions de gestion optimale des systèmes énergétiques hybrides en Zones Non Interconnectées (ZNI), avec un focus sur l'optimisation temps réel et la prévision de production des centrales renouvelables.",
+        "missions": [
+          "Développer des solutions de gestion optimale pour systèmes énergétiques hybrides (solaire, éolien, stockage) en Zones Non Interconnectées",
+          "Maximiser les revenus des centrales hybrides par l'optimisation temps réel de la production",
+          "Optimiser le dispatch énergétique selon les programmes annoncés et l'état réel de la centrale",
+          "Construire et mettre à jour en continu des modèles de prévision de production pour le pilotage opérationnel",
+          "Clients : Omexom, Valorem, Urbasolar — Territoires : Corse, Martinique, Guadeloupe, La Réunion, Mayotte"
+        ],
+        "tech": "Python · MILP · MINLP · Pyomo · Machine Learning · SCADA · Optimisation temps réel"
       },
       "e02": {
         "date": "2022 — 2024",
+        "dateDetail": "Mars 2022 — Avril 2024",
+        "type": "CDI",
         "role": "Ingénieur développement logiciel · C++",
         "company": "SCLE SFE",
         "place": "Toulouse · France",
-        "text": "Développement backend et logiciels de simulation pour les postes électriques haute tension."
+        "text": "Développement back-end du logiciel Vcard, application de simulation de cartes de postes électriques haute tension, au sein de l'équipe ingénierie de fiabilité.",
+        "missions": [
+          "Développer et maintenir le logiciel de simulation Vcard pour les cartes de postes électriques haute tension",
+          "Concevoir et implémenter l'architecture back-end pour des systèmes logiciels à fiabilité critique",
+          "Rédiger et maintenir des suites de tests automatisés complètes (unitaires et intégration)",
+          "Appliquer les bonnes pratiques C++ moderne : RAII, design patterns, analyse statique, revue de code"
+        ],
+        "tech": "C++ · Simulation · Architecture back-end · Tests unitaires · Ingénierie de fiabilité"
       },
       "e03": {
         "date": "2018 — 2022",
+        "dateDetail": "Décembre 2018 — Février 2022",
+        "type": "Freelance",
         "role": "Ingénieur logiciel · C++ / Java",
         "company": "SEGULA Technologies",
         "place": "Brest · France",
-        "text": "Activités d'ingénierie logicielle dans le cadre du projet de recherche E3S, avec développement C++ et Java."
+        "text": "Phase de développement logiciel du projet E3S (Energy Smart Sailing Ship) : conception et implémentation du système de gestion d'énergie embarqué et de ses algorithmes d'optimisation.",
+        "missions": [
+          "Implémenter et optimiser le cœur C++ de l'EMS pour le système énergétique hybride E3S",
+          "Développer les composants Java dans l'architecture orientée services du projet",
+          "Intégrer les modèles d'optimisation énergétique (GLPK) avec les contraintes opérationnelles temps réel",
+          "Valider et tester l'EMS hybride sur de multiples scénarios de sources d'énergie"
+        ],
+        "tech": "C++ · Java · GLPK · EMS · Optimisation · MATLAB"
       },
       "e04": {
         "date": "2018",
+        "dateDetail": "Mars 2018 — Août 2018",
+        "type": "Stage",
         "role": "Ingénieur recherche & innovation",
         "company": "SEGULA Technologies",
         "place": "Cherbourg · France",
-        "text": "Projet de recherche sur la gestion intelligente de l'énergie, l'optimisation robuste et l'incertitude dans les systèmes d'énergie renouvelable."
+        "text": "Recherche et prototypage d'un système de gestion d'énergie (EMS) hybride intelligent pour un voilier de croisière longue distance équipé de multiples sources d'énergie renouvelables, dans le cadre du projet E3S.",
+        "missions": [
+          "Concevoir un EMS hybride intelligent gérant sources solaire, éolienne, hydrogénérateur, diesel et batteries",
+          "Modéliser et optimiser les flux de production et consommation électrique à bord",
+          "Formuler et résoudre des modèles d'optimisation robuste sous incertitude météorologique et opérationnelle",
+          "Assurer la sécurité de navigation et le confort des passagers par une gestion fiable de l'énergie"
+        ],
+        "tech": "C++ · GLPK · EMS · Optimisation robuste · MATLAB · Systèmes d'énergie renouvelable"
       }
     }
   },

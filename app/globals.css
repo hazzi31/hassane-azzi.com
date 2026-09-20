@@ -95,11 +95,17 @@ h2 { font-size: clamp(2.8rem, 5vw, 5.8rem); line-height: .92; letter-spacing: -.
 .project-arrow { margin-top: 5px; }
 .experience { background: #e6e2d8; max-width: none; padding-left: max(4vw, calc((100vw - var(--max))/2 + 4vw)); padding-right: max(4vw, calc((100vw - var(--max))/2 + 4vw)); }
 .timeline { margin-top: 70px; border-top: 1px solid #c8c4ba; }
-.timeline-item { display: grid; grid-template-columns: 190px 1fr; gap: 60px; padding: 35px 0; border-bottom: 1px solid #c8c4ba; }
+.timeline-item { display: grid; grid-template-columns: 190px 1fr; gap: 60px; padding: 42px 0; border-bottom: 1px solid #c8c4ba; }
 .date { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.timeline-date-detail { display: block; font-size: .65rem; margin-top: 7px; color: var(--muted); letter-spacing: .04em; text-transform: none; opacity: .75; }
+.timeline-type { display: inline-block; margin-top: 12px; font-size: .58rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border: 1px solid #c8c4ba; border-radius: 99px; padding: 3px 9px; }
 .timeline h3 { font-size: 1.55rem; letter-spacing: -.035em; margin: 0 0 5px; }
 .timeline p { color: var(--muted); max-width: 650px; margin: 8px 0; }
 .timeline .company { color: var(--ink); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; }
+.timeline-missions { margin: 16px 0 0; padding-left: 18px; max-width: 650px; }
+.timeline-missions li { color: var(--muted); font-size: .875rem; line-height: 1.55; margin-bottom: 8px; }
+.timeline-tech { margin-top: 20px; }
+.timeline-tech span { border-color: #c8c4ba; }
 .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .edu-grid > div:first-child { grid-row: span 2; }
 .edu-card { border: 1px solid var(--line); padding: 34px; background: rgba(255,255,255,.25); }
@@ -145,7 +151,9 @@ footer { max-width: var(--max); margin: auto; padding: 25px 4vw 45px; display: f
   .skills-grid, .edu-grid, .certs-grid { grid-template-columns: 1fr; }
   .edu-grid > div:first-child { grid-row: auto; margin-bottom: 20px; }
   .skill, .skill:nth-child(even) { border-right: 0; padding: 28px 0; }
-  .timeline-item { grid-template-columns: 1fr; gap: 8px; }
+  .timeline-item { grid-template-columns: 1fr; gap: 10px; }
+  .timeline-date-detail { display: inline; margin-left: 8px; }
+  .timeline-type { margin-top: 6px; }
   .project { grid-template-columns: 45px 1fr; }
   .project-arrow { display: none; }
   footer { flex-direction: column; gap: 18px; }
