@@ -146,7 +146,7 @@ footer { max-width: var(--max); margin: auto; padding: 25px 4vw 45px; display: f
 }
 @media (max-width: 650px) {
   .section { padding-top: 90px; padding-bottom: 90px; }
-  .hero h1 { font-size: 2.6rem; }
+  .hero h1 { font-size: min(2.3rem, 9vw); }
   .actions { flex-direction: column; align-items: flex-start; }
   .button { width: auto; }
   .hero-visual { min-height: 300px; }
