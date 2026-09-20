@@ -126,6 +126,19 @@
       "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
+  "certs": {
+    "label": "ZERTIFIKATE",
+    "titlePart1": "Kontinuierliches ",
+    "titleEmphasis": "Lernen.",
+    "viewCert": "Zertifikat ansehen",
+    "cat": {
+      "optimization": "Operations Research & Optimierung",
+      "ml": "Machine Learning & Data Science",
+      "python": "Python",
+      "cpp": "C++",
+      "java": "Java & Software Engineering"
+    }
+  },
   "contact": {
     "label": "KONTAKT",
     "titlePart1": "Lassen Sie uns gemeinsam etwas ",
