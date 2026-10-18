@@ -13,6 +13,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // German temporarily disabled: send old /de URLs (with or without sub-path)
+  // to /en. Redirects run before the next-intl middleware. Kept non-permanent
+  // (307) so browsers don't cache it. Remove when 'de' is re-enabled.
+  async redirects() {
+    return [
+      {
+        source: '/de/:path*',
+        destination: '/en',
+        permanent: false,
+      },
+    ];
+  },
 };
 
 export default withNextIntl(nextConfig);

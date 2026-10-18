@@ -67,7 +67,8 @@ export async function generateMetadata({
       languages: {
         en: "https://www.hassane-azzi.com/en",
         fr: "https://www.hassane-azzi.com/fr",
-        de: "https://www.hassane-azzi.com/de",
+        // German temporarily disabled:
+        // de: "https://www.hassane-azzi.com/de",
         "x-default": "https://www.hassane-azzi.com/en",
       },
     },

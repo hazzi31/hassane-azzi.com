@@ -8,7 +8,8 @@ const LAST_MODIFIED = new Date('2026-09-20');
 const LANGUAGES = {
   en: `${BASE}/en`,
   fr: `${BASE}/fr`,
-  de: `${BASE}/de`,
+  // German temporarily disabled:
+  // de: `${BASE}/de`,
   'x-default': `${BASE}/en`,
 };
 
@@ -28,12 +29,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: {languages: LANGUAGES},
     },
-    {
-      url: `${BASE}/de`,
-      lastModified: LAST_MODIFIED,
-      changeFrequency: 'monthly',
-      priority: 0.9,
-      alternates: {languages: LANGUAGES},
-    },
+    // German temporarily disabled:
+    // {
+    //   url: `${BASE}/de`,
+    //   lastModified: LAST_MODIFIED,
+    //   changeFrequency: 'monthly',
+    //   priority: 0.9,
+    //   alternates: {languages: LANGUAGES},
+    // },
   ];
 }
