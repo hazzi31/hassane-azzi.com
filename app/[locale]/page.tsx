@@ -127,7 +127,7 @@ export default async function Home({
           <div className="language-menu">
             <a href="/fr">🇫🇷 Français</a>
             <a href="/en">🇺🇸 English</a>
-            <a href="/de">🇩🇪 Deutsch</a>
+            {/* German temporarily disabled: <a href="/de">🇩🇪 Deutsch</a> */}
           </div>
         </details>
 
