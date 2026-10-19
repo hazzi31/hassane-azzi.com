@@ -7,14 +7,14 @@ import '../globals.css';
 
 const metaByLocale = {
   en: {
-    title: "Hassane AZZI | Operations Research, Optimization & AI",
+    title: "Hassane AZZI | Operations Research & Optimization Engineer | Machine Learning & AI",
     description:
       "Hassane AZZI is an Operations Research engineer specialized in mathematical optimization, artificial intelligence, machine learning and software engineering for complex industrial systems.",
     ogLocale: "en_US",
     imageAlt: "Hassane AZZI — Operations Research, Optimization & AI",
   },
   fr: {
-    title: "Hassane AZZI | Recherche opérationnelle, Optimisation & IA",
+    title: "Hassane AZZI | Ingénieur en recherche opérationnelle et optimisation | Machine Learning & IA",
     description:
       "Hassane AZZI est un ingénieur en recherche opérationnelle spécialisé en optimisation mathématique, intelligence artificielle, machine learning et ingénierie logicielle pour les systèmes industriels complexes.",
     ogLocale: "fr_FR",

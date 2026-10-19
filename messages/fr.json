@@ -1,5 +1,7 @@
 {
   "nav": {
+    "label": "Navigation principale",
+    "certifications": "Certificats",
     "about": "À propos",
     "expertise": "Expertise",
     "projects": "Projets",
@@ -9,13 +11,14 @@
     "letsTalk": "Me contacter"
   },
   "hero": {
-    "eyebrow": "RECHERCHE OPÉRATIONNELLE · OPTIMISATION · IA",
+    "eyebrow": "Ingénieur en recherche opérationnelle et optimisation | Machine Learning & IA",
     "titlePart1": "Je transforme des problèmes complexes en ",
     "titleEmphasis": "meilleures décisions.",
     "description": "Je suis Hassane AZZI, ingénieur spécialisé en optimisation mathématique, machine learning et ingénierie logicielle. Je conçois des solutions d'aide à la décision intelligentes pour des systèmes industriels exigeants.",
     "exploreWork": "Voir mes projets",
     "viewFullProfile": "Voir mon profil complet",
-    "scrollNote": "Défiler pour explorer"
+    "scrollNote": "Défiler pour explorer",
+    "profilesLabel": "Profils professionnels et scientifiques"
   },
   "marquee": "OPTIMISATION ✦ MACHINE LEARNING ✦ C++ MODERNE ✦ SYSTÈMES ÉNERGÉTIQUES ✦ AIDE À LA DÉCISION ✦ ",
   "about": {
@@ -29,7 +32,10 @@
     "bigCopy3": " et de la ",
     "bigCopyBold3": "data science",
     "bigCopy4": ".",
-    "text": "J'aime transformer un problème industriel complexe en un modèle précis, choisir le bon algorithme, puis convertir le résultat en logiciel de production robuste. Mon expérience couvre les systèmes énergétiques, l'aéronautique, la simulation et les applications d'aide à la décision.",
+    "profileTitle": "Profil professionnel",
+    "profile1": "Ingénieur en informatique spécialisé en recherche opérationnelle et en optimisation, j'ai une expérience en modélisation mathématique, en algorithmes d'optimisation, en Machine Learning et en développement de logiciels scientifiques.",
+    "profile2": "Je conçois et mets en œuvre des solutions d'aide à la décision fondées sur les données pour des problèmes industriels complexes, en combinant optimisation mathématique, modélisation prédictive et ingénierie logicielle moderne. Mon expérience comprend les systèmes de gestion de l'énergie, l'intégration des énergies renouvelables et le développement de modèles d'optimisation et de prévision.",
+    "profile3": "Mon socle technique couvre Python, C++, Java, la programmation mathématique et des outils d'optimisation tels que Gurobi, CPLEX et Pyomo.",
     "factMsc": "Recherche opérationnelle & optimisation",
     "factEnac": "Écosystème d'ingénierie de Toulouse",
     "factLanguages": "Langages principaux : C++ · Java · Python"
@@ -82,10 +88,10 @@
     "titleEmphasis": "systèmes complexes.",
     "items": {
       "e01": {
-        "date": "2024 — présent",
-        "dateDetail": "Mai 2024 — Présent",
-        "type": "Prestation",
-        "role": "Ingénieur optimisation & machine learning",
+        "date": "2025 — présent",
+        "dateDetail": "Mars 2025 — Présent",
+        "type": "CDD",
+        "role": "Ingénieur R&D en Optimisation & Machine Learning",
         "company": "Naldeo Digital for Climate",
         "place": "Tarnos · France",
         "text": "Accompagnement de clients dans le développement de solutions de gestion optimale des systèmes énergétiques hybrides en Zones Non Interconnectées (ZNI), avec un focus sur l'optimisation temps réel et la prévision de production des centrales renouvelables.",
@@ -99,10 +105,10 @@
         "tech": "Python · MILP · MINLP · Pyomo · Machine Learning · SCADA · Optimisation temps réel"
       },
       "e02": {
-        "date": "2022 — 2024",
-        "dateDetail": "Mars 2022 — Avril 2024",
+        "date": "2022 — 2025",
+        "dateDetail": "Mars 2022 — Février 2025",
         "type": "CDI",
-        "role": "Ingénieur développement logiciel · C++",
+        "role": "Ingénieur études et développement C++",
         "company": "SCLE SFE",
         "place": "Toulouse · France",
         "text": "Développement back-end du logiciel Vcard, application de simulation de cartes de postes électriques haute tension, au sein de l'équipe ingénierie de fiabilité.",
@@ -118,7 +124,7 @@
         "date": "2018 — 2022",
         "dateDetail": "Décembre 2018 — Février 2022",
         "type": "Freelance",
-        "role": "Ingénieur logiciel · C++ / Java",
+        "role": "Développeur logiciel C++/Java (Freelance)",
         "company": "SEGULA Technologies",
         "place": "Brest · France",
         "text": "Phase de développement logiciel du projet E3S (Energy Smart Sailing Ship) : conception et implémentation du système de gestion d'énergie embarqué et de ses algorithmes d'optimisation.",
@@ -134,7 +140,7 @@
         "date": "2018",
         "dateDetail": "Mars 2018 — Août 2018",
         "type": "Stage",
-        "role": "Ingénieur recherche & innovation",
+        "role": "Ingénieur Recherche & Innovation",
         "company": "SEGULA Technologies",
         "place": "Cherbourg · France",
         "text": "Recherche et prototypage d'un système de gestion d'énergie (EMS) hybride intelligent pour un voilier de croisière longue distance équipé de multiples sources d'énergie renouvelables, dans le cadre du projet E3S.",
@@ -167,13 +173,44 @@
     "label": "CERTIFICATS",
     "titlePart1": "Apprentissage ",
     "titleEmphasis": "continu.",
-    "viewCert": "Voir la certification",
-    "cat": {
-      "optimization": "Recherche opérationnelle & Optimisation",
-      "ml": "Machine Learning & Data Science",
-      "python": "Python",
-      "cpp": "C++",
-      "java": "Java & Génie logiciel"
+    "previewText": "{count} certificats délivrés par des universités et des plateformes de formation, répartis en sept domaines. Recherchez-les et filtrez-les sur la page dédiée.",
+    "viewAll": "Voir les {count} certificats"
+  },
+  "certDomains": {
+    "optimization": "Recherche opérationnelle & Optimisation",
+    "ml-ai": "Machine Learning & IA",
+    "data-science": "Data Science & Calcul scientifique",
+    "python": "Python",
+    "cpp": "C / C++",
+    "java": "Java",
+    "software-engineering": "Génie logiciel"
+  },
+  "certsPage": {
+    "metaTitle": "Certificats | Hassane AZZI",
+    "metaDescription": "{count} certificats en recherche opérationnelle, optimisation, machine learning, data science, Python, C/C++, Java et génie logiciel, avec recherche et filtres par domaine.",
+    "titlePart1": "Certificats & ",
+    "titleEmphasis": "formations.",
+    "intro": "{count} certificats, classés par domaine. Les intitulés sont affichés dans leur langue d'origine. Recherchez par intitulé, organisme, plateforme ou compétence, ou filtrez par domaine.",
+    "searchLabel": "Rechercher un certificat",
+    "searchPlaceholder": "ex. Pyomo, programmation linéaire, EPFL",
+    "filterLabel": "Filtrer par domaine",
+    "all": "Tous",
+    "resultsNone": "Aucun certificat trouvé",
+    "resultsOne": "{count} certificat",
+    "resultsOther": "{count} certificats",
+    "noResults": "Aucun certificat ne correspond à votre recherche.",
+    "reset": "Réinitialiser la recherche et les filtres",
+    "via": "via",
+    "domainsLabel": "Domaines",
+    "skillsLabel": "Compétences",
+    "moreSkillsAria": "compétences supplémentaires",
+    "newTab": "s'ouvre dans un nouvel onglet",
+    "backHome": "Retour à l'accueil",
+    "links": {
+      "certificate": "Voir le certificat",
+      "course": "Voir le cours",
+      "share": "Voir le partage",
+      "link": "Voir le lien"
     }
   },
   "contact": {
