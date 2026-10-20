@@ -3,6 +3,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {
   certDomains,
   certifications,
+  legacyCertDomains,
   type CertDomain,
   type Certification,
 } from '../../../data/certifications';
@@ -143,6 +144,7 @@ export default async function CertificationsPage({
         <CertificationsExplorer
           certs={certs}
           domainOrder={[...certDomains]}
+          domainAliases={legacyCertDomains}
           domainLabels={domainLabels}
           labels={labels}
           locale={locale}

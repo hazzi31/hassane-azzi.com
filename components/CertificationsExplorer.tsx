@@ -47,12 +47,15 @@ function normalize(value: string): string {
 export default function CertificationsExplorer({
   certs,
   domainOrder,
+  domainAliases,
   domainLabels,
   labels,
   locale,
 }: {
   certs: CertView[];
   domainOrder: CertDomain[];
+  /** Former domain ids mapped to their current domain. */
+  domainAliases: Record<string, CertDomain>;
   domainLabels: Record<CertDomain, string>;
   labels: ExplorerLabels;
   locale: string;
@@ -64,12 +67,13 @@ export default function CertificationsExplorer({
   // Restore ?domain= and ?q= (e.g. links from the home page preview).
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const d = params.get('domain');
+    const param = params.get('domain');
+    const d = param && Object.hasOwn(domainAliases, param) ? domainAliases[param] : param;
     if (d && (domainOrder as string[]).includes(d)) setDomain(d as CertDomain);
     const q = params.get('q');
     if (q) setQuery(q);
     setUrlRead(true);
-  }, [domainOrder]);
+  }, [domainOrder, domainAliases]);
 
   // Keep the URL shareable without adding history entries.
   useEffect(() => {

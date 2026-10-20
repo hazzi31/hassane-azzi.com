@@ -9,7 +9,6 @@
 export const certDomains = [
   'optimization',
   'ml-ai',
-  'data-science',
   'python',
   'cpp',
   'java',
@@ -17,6 +16,11 @@ export const certDomains = [
 ] as const;
 
 export type CertDomain = (typeof certDomains)[number];
+
+/** Former domain ids still accepted in ?domain= links ('data-science' was merged into 'ml-ai'). */
+export const legacyCertDomains: Record<string, CertDomain> = {
+  'data-science': 'ml-ai',
+};
 
 export type CertLinkKind = 'certificate' | 'course' | 'share' | 'link';
 
@@ -70,7 +74,7 @@ export const certifications: Certification[] = [
     titleLang: 'en',
     issuer: 'Gurobi',
     platform: 'Udemy',
-    domains: ['optimization', 'data-science'],
+    domains: ['optimization', 'ml-ai'],
     url: 'https://www.udemy.com/course/intro-to-optimization-pt1/?srsltid=AfmBOoreof0iSpvewmnWWe5dYaWg_9gej6t2KWkh-',
     linkKind: 'course',
     skills: ['Mathematical Optimization', 'Operations Research', 'Data Science', 'Optimization Modeling', 'Linear Programming', 'Mixed-Integer Programming', 'Decision Optimization', 'Python', 'Predictive Analytics', 'Prescriptive Analytics'],
@@ -235,14 +239,14 @@ export const certifications: Certification[] = [
     skills: ['Operations Research', 'Mathematical Optimization', 'Mathematical Modeling', 'Linear Programming', 'Integer Programming', 'Stochastic Optimization', 'Decision Theory', 'Network Modeling', 'Machine Learning', 'Applied Mathematics'],
   },
 
-  // ── Machine Learning & AI ──────────────────────────────────────────────
+  // ── Machine Learning, Data Science & AI ────────────────────────────────
   {
     id: 'C16',
     title: 'Mathematics for Machine Learning and Data Science (Specialization)',
     titleLang: 'en',
     issuer: 'DeepLearning.AI',
     platform: 'Coursera',
-    domains: ['ml-ai', 'data-science'],
+    domains: ['ml-ai'],
     url: 'https://www.coursera.org/account/accomplishments/specialization/2HM0J7K2W3JL',
     linkKind: 'certificate',
     skills: ['Mathematics for Machine Learning', 'Data Science', 'Linear Algebra', 'Calculus', 'Probability Theory', 'Statistics', 'Mathematical Foundations of Machine Learning', 'Python', 'NumPy', 'Statistical Modeling'],
@@ -317,21 +321,19 @@ export const certifications: Certification[] = [
     title: 'Applied Data Science & Machine Learning',
     titleLang: 'en',
     issuer: 'Columbia Engineering & Emeritus Institute of Management',
-    domains: ['ml-ai', 'data-science'],
+    domains: ['ml-ai'],
     url: 'https://www.smartcertificate.com/SmartDiploma/Default.aspx?iZrsRKuPtTPnMoPxa4vUY0j8EUyneZnub9MwrFidmpYKlnoV26oP%2fjxQrWvj08k5#/',
     linkKind: 'link',
     date: '2019-01',
     dateEnd: '2019-05',
-    skills: [],
+    skills: ['Python', 'Data Science', 'Machine Learning'],
   },
-
-  // ── Data Science & Scientific Computing ───────────────────────────────
   {
     id: 'C23',
     title: 'Data Visualization with Python',
     titleLang: 'en',
     issuer: 'Cognitive Class',
-    domains: ['data-science', 'python'],
+    domains: ['ml-ai', 'python'],
     url: 'https://courses.cognitiveclass.ai/certificates/44b4ec97aeba49818dadc178eeae2744',
     linkKind: 'certificate',
     skills: ['Data Visualization', 'Python', 'Matplotlib', 'Seaborn', 'Pandas', 'Data Analysis', 'Statistical Visualization', 'Exploratory Data Analysis', 'Data Storytelling'],
@@ -341,7 +343,7 @@ export const certifications: Certification[] = [
     title: 'Data Analysis with Python',
     titleLang: 'en',
     issuer: 'Cognitive Class',
-    domains: ['data-science', 'python'],
+    domains: ['ml-ai', 'python'],
     url: 'https://courses.cognitiveclass.ai/certificates/e835a8f6e02e40a8a6b039da18dc60d7',
     linkKind: 'certificate',
     skills: ['Data Analysis', 'Python', 'Pandas', 'NumPy', 'Data Cleaning', 'Data Wrangling', 'Exploratory Data Analysis', 'Statistical Analysis', 'Data Visualization', 'SciPy'],
@@ -351,7 +353,7 @@ export const certifications: Certification[] = [
     title: 'Python 101 for Data Science',
     titleLang: 'en',
     issuer: 'Cognitive Class',
-    domains: ['data-science', 'python'],
+    domains: ['ml-ai', 'python'],
     url: 'https://courses.cognitiveclass.ai/certificates/b52da9e2c9634c28a22305ea75ad828a',
     linkKind: 'certificate',
     skills: ['Python', 'Data Science', 'NumPy', 'Pandas', 'Data Analysis', 'Data Visualization', 'Data Manipulation', 'Exploratory Data Analysis', 'Jupyter Notebooks'],
