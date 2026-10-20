@@ -66,25 +66,25 @@
         "category": "Optimisation · Énergie · Machine Learning",
         "title": "ENERBIRD / Gestion hybride de l'énergie",
         "text": "Contrôle optimal et gestion de l'énergie pour des centrales hybrides d'énergie renouvelable combinant solaire/éolien et stockage par batteries. Les modèles d'optimisation sont couplés à des prévisions et des contraintes opérationnelles en temps réel.",
-        "linkLabel": "Découvrir ENERBIRD"
+        "linkLabels": ["Découvrir ENERBIRD"]
       },
       "p02": {
         "category": "Recherche & Innovation · Énergie",
         "title": "E3S — Energy Smart Sailing Ship",
         "text": "Système intelligent de gestion d'énergie hybride pour un voilier à grande autonomie. Le projet combine sources renouvelables, génération diesel et stockage par batteries avec une optimisation robuste face à l'incertitude météorologique.",
-        "linkLabel": "Lire l'article de SEGULA"
+        "linkLabels": ["Lire l'article de SEGULA"]
       },
       "p03": {
         "category": "Ingénierie logicielle · C++",
         "title": "Simulation de poste électrique haute tension",
         "text": "Développement logiciel backend pour la simulation de cartes de postes électriques haute tension, avec un focus sur la fiabilité, l'architecture, les tests et la maintenabilité en C++ moderne.",
-        "linkLabel": "Site de SCLE"
+        "linkLabels": ["SCLE – Conception hardware et software", "SCLE – Ingénierie & expertise"]
       },
       "p04": {
         "category": "Recherche opérationnelle · Aéronautique",
         "title": "Résolution de conflits dans le trafic aérien",
         "text": "Approches exactes et approchées pour résoudre les conflits aériens, explorant la modélisation mathématique, l'optimisation combinatoire et les métaheuristiques dans un contexte de gestion du trafic aérien.",
-        "linkLabel": "Site de l'ENAC"
+        "linkLabels": ["Équipe de recherche OPTIM de l'ENAC"]
       }
     }
   },
@@ -167,20 +167,21 @@
     "master": {
       "kicker": "MASTER · 2016 — 2018",
       "title": "Informatique — Recherche opérationnelle & optimisation",
-      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
+      "linksLabel": "Liens vers la formation",
+      "links": ["Master parcours Recherche opérationnelle optimisation (RO)", "M2RO – Recherche Opérationnelle"]
     }
   },
   "certs": {
     "label": "CERTIFICATS",
     "titlePart1": "Apprentissage ",
     "titleEmphasis": "continu.",
-    "previewText": "{count} certificats délivrés par des universités et des plateformes de formation, répartis en sept domaines. Recherchez-les et filtrez-les sur la page dédiée.",
+    "previewText": "{count} certificats délivrés par des universités et des plateformes de formation, répartis en six domaines. Recherchez-les et filtrez-les sur la page dédiée.",
     "viewAll": "Voir les {count} certificats"
   },
   "certDomains": {
     "optimization": "Recherche opérationnelle & Optimisation",
-    "ml-ai": "Machine Learning & IA",
-    "data-science": "Data Science & Calcul scientifique",
+    "ml-ai": "Machine Learning, Data Science & IA",
     "python": "Python",
     "cpp": "C / C++",
     "java": "Java",

@@ -100,6 +100,10 @@ h2 { font-size: clamp(2.8rem, 5vw, 5.8rem); line-height: .92; letter-spacing: -.
 .tags span { border: 1px solid var(--line); border-radius: 99px; padding: 6px 10px; font-size: .63rem; color: var(--muted); }
 .project-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 22px; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; color: var(--ink); }
 .project-link:hover { border-bottom-color: transparent; }
+.project-link svg { flex-shrink: 0; }
+.project-links { display: flex; flex-wrap: wrap; column-gap: 28px; }
+.edu-links { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; align-items: flex-start; }
+.edu-links .project-link { margin-top: 14px; }
 .experience { background: #e6e2d8; max-width: none; padding-left: max(4vw, calc((100vw - var(--max))/2 + 4vw)); padding-right: max(4vw, calc((100vw - var(--max))/2 + 4vw)); }
 .timeline { margin-top: 70px; border-top: 1px solid #c8c4ba; }
 .timeline-item { display: grid; grid-template-columns: 190px 1fr; gap: 60px; padding: 42px 0; border-bottom: 1px solid #c8c4ba; }

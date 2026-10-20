@@ -66,25 +66,25 @@
         "category": "Optimization · Energy · Machine Learning",
         "title": "ENERBIRD / Hybrid Energy Management",
         "text": "Optimal control and energy management for hybrid renewable power plants combining solar/wind generation and battery storage. Optimization models are coupled with forecasting and real-time operational constraints.",
-        "linkLabel": "Discover ENERBIRD"
+        "linkLabels": ["Discover ENERBIRD"]
       },
       "p02": {
         "category": "Research & Innovation · Energy",
         "title": "E3S — Energy Smart Sailing Ship",
         "text": "Hybrid intelligent energy-management system for a long-range sailing ship. The project combines renewable sources, diesel generation and battery storage with robust optimization under weather uncertainty.",
-        "linkLabel": "Read the SEGULA article"
+        "linkLabels": ["Read the SEGULA article"]
       },
       "p03": {
         "category": "Software Engineering · C++",
         "title": "High-Voltage Substation Simulation",
         "text": "Backend software development for simulation of high-voltage substation cards, with a strong focus on reliability, architecture, testing and maintainable modern C++.",
-        "linkLabel": "SCLE website"
+        "linkLabels": ["SCLE – Hardware & software design", "SCLE – Engineering & expertise"]
       },
       "p04": {
         "category": "Operations Research · Aeronautics",
         "title": "Air Traffic Conflict Resolution",
         "text": "Exact and approximate approaches for resolving aircraft conflicts, exploring mathematical modeling, combinatorial optimization and metaheuristics in an air-traffic-management context.",
-        "linkLabel": "ENAC website"
+        "linkLabels": ["ENAC OPTIM Research Team"]
       }
     }
   },
@@ -167,20 +167,21 @@
     "master": {
       "kicker": "MASTER'S DEGREE · 2016 — 2018",
       "title": "Computer Science — Operations Research & Optimization",
-      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
+      "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier",
+      "linksLabel": "Programme links",
+      "links": ["Master's track in Operations Research & Optimization (RO)", "M2RO – Operations Research"]
     }
   },
   "certs": {
     "label": "CERTIFICATIONS",
     "titlePart1": "Continuous ",
     "titleEmphasis": "learning.",
-    "previewText": "{count} certificates from universities and training platforms, grouped into seven domains. Search and filter them on the dedicated page.",
+    "previewText": "{count} certificates from universities and training platforms, grouped into six domains. Search and filter them on the dedicated page.",
     "viewAll": "View all {count} certifications"
   },
   "certDomains": {
     "optimization": "Operations Research & Optimization",
-    "ml-ai": "Machine Learning & AI",
-    "data-science": "Data Science & Scientific Computing",
+    "ml-ai": "Machine Learning, Data Science & AI",
     "python": "Python",
     "cpp": "C / C++",
     "java": "Java",
