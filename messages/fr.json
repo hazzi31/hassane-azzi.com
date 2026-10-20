@@ -8,7 +8,9 @@
     "experience": "Expérience",
     "education": "Formation",
     "contact": "Contact",
-    "letsTalk": "Me contacter"
+    "letsTalk": "Me contacter",
+    "menu": "Menu",
+    "mobileLabel": "Navigation mobile"
   },
   "hero": {
     "eyebrow": "Ingénieur en recherche opérationnelle et optimisation | Machine Learning & IA",
@@ -16,7 +18,6 @@
     "titleEmphasis": "meilleures décisions.",
     "description": "Je suis Hassane AZZI, ingénieur spécialisé en optimisation mathématique, machine learning et ingénierie logicielle. Je conçois des solutions d'aide à la décision intelligentes pour des systèmes industriels exigeants.",
     "exploreWork": "Voir mes projets",
-    "viewFullProfile": "Voir mon profil complet",
     "scrollNote": "Défiler pour explorer",
     "profilesLabel": "Profils professionnels et scientifiques"
   },
@@ -59,26 +60,31 @@
     "titlePart1": "Des problèmes qui méritent ",
     "titleEmphasis": "d'être résolus.",
     "subtitle": "Une sélection de projets techniques et de recherche dans les domaines de l'énergie, de l'aéronautique et des logiciels industriels.",
+    "newTab": "s'ouvre dans un nouvel onglet",
     "items": {
       "p01": {
         "category": "Optimisation · Énergie · Machine Learning",
         "title": "ENERBIRD / Gestion hybride de l'énergie",
-        "text": "Contrôle optimal et gestion de l'énergie pour des centrales hybrides d'énergie renouvelable combinant solaire/éolien et stockage par batteries. Les modèles d'optimisation sont couplés à des prévisions et des contraintes opérationnelles en temps réel."
+        "text": "Contrôle optimal et gestion de l'énergie pour des centrales hybrides d'énergie renouvelable combinant solaire/éolien et stockage par batteries. Les modèles d'optimisation sont couplés à des prévisions et des contraintes opérationnelles en temps réel.",
+        "linkLabel": "Découvrir ENERBIRD"
       },
       "p02": {
         "category": "Recherche & Innovation · Énergie",
         "title": "E3S — Energy Smart Sailing Ship",
-        "text": "Système intelligent de gestion d'énergie hybride pour un voilier à grande autonomie. Le projet combine sources renouvelables, génération diesel et stockage par batteries avec une optimisation robuste face à l'incertitude météorologique."
+        "text": "Système intelligent de gestion d'énergie hybride pour un voilier à grande autonomie. Le projet combine sources renouvelables, génération diesel et stockage par batteries avec une optimisation robuste face à l'incertitude météorologique.",
+        "linkLabel": "Lire l'article de SEGULA"
       },
       "p03": {
         "category": "Ingénierie logicielle · C++",
         "title": "Simulation de poste électrique haute tension",
-        "text": "Développement logiciel backend pour la simulation de cartes de postes électriques haute tension, avec un focus sur la fiabilité, l'architecture, les tests et la maintenabilité en C++ moderne."
+        "text": "Développement logiciel backend pour la simulation de cartes de postes électriques haute tension, avec un focus sur la fiabilité, l'architecture, les tests et la maintenabilité en C++ moderne.",
+        "linkLabel": "Site de SCLE"
       },
       "p04": {
         "category": "Recherche opérationnelle · Aéronautique",
         "title": "Résolution de conflits dans le trafic aérien",
-        "text": "Approches exactes et approchées pour résoudre les conflits aériens, explorant la modélisation mathématique, l'optimisation combinatoire et les métaheuristiques dans un contexte de gestion du trafic aérien."
+        "text": "Approches exactes et approchées pour résoudre les conflits aériens, explorant la modélisation mathématique, l'optimisation combinatoire et les métaheuristiques dans un contexte de gestion du trafic aérien.",
+        "linkLabel": "Site de l'ENAC"
       }
     }
   },
@@ -162,11 +168,6 @@
       "kicker": "MASTER · 2016 — 2018",
       "title": "Informatique — Recherche opérationnelle & optimisation",
       "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
-    },
-    "cert": {
-      "kicker": "CERTIFICAT · 2019",
-      "title": "Data Science appliquée & Machine Learning",
-      "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
   "certs": {

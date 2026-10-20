@@ -8,7 +8,9 @@
     "experience": "Experience",
     "education": "Education",
     "contact": "Contact",
-    "letsTalk": "Let's talk"
+    "letsTalk": "Let's talk",
+    "menu": "Menu",
+    "mobileLabel": "Mobile navigation"
   },
   "hero": {
     "eyebrow": "Operations Research & Optimization Engineer | Machine Learning & AI",
@@ -16,7 +18,6 @@
     "titleEmphasis": "better decisions.",
     "description": "I'm Hassane AZZI, an engineer specialized in mathematical optimization, machine learning and software engineering. I design intelligent decision-support solutions for demanding industrial systems.",
     "exploreWork": "Explore my work",
-    "viewFullProfile": "View full profile",
     "scrollNote": "Scroll to explore",
     "profilesLabel": "Professional and scientific profiles"
   },
@@ -59,26 +60,31 @@
     "titlePart1": "Problems worth ",
     "titleEmphasis": "solving.",
     "subtitle": "A selection of technical and research projects across energy, aeronautics and industrial software.",
+    "newTab": "opens in a new tab",
     "items": {
       "p01": {
         "category": "Optimization · Energy · Machine Learning",
         "title": "ENERBIRD / Hybrid Energy Management",
-        "text": "Optimal control and energy management for hybrid renewable power plants combining solar/wind generation and battery storage. Optimization models are coupled with forecasting and real-time operational constraints."
+        "text": "Optimal control and energy management for hybrid renewable power plants combining solar/wind generation and battery storage. Optimization models are coupled with forecasting and real-time operational constraints.",
+        "linkLabel": "Discover ENERBIRD"
       },
       "p02": {
         "category": "Research & Innovation · Energy",
         "title": "E3S — Energy Smart Sailing Ship",
-        "text": "Hybrid intelligent energy-management system for a long-range sailing ship. The project combines renewable sources, diesel generation and battery storage with robust optimization under weather uncertainty."
+        "text": "Hybrid intelligent energy-management system for a long-range sailing ship. The project combines renewable sources, diesel generation and battery storage with robust optimization under weather uncertainty.",
+        "linkLabel": "Read the SEGULA article"
       },
       "p03": {
         "category": "Software Engineering · C++",
         "title": "High-Voltage Substation Simulation",
-        "text": "Backend software development for simulation of high-voltage substation cards, with a strong focus on reliability, architecture, testing and maintainable modern C++."
+        "text": "Backend software development for simulation of high-voltage substation cards, with a strong focus on reliability, architecture, testing and maintainable modern C++.",
+        "linkLabel": "SCLE website"
       },
       "p04": {
         "category": "Operations Research · Aeronautics",
         "title": "Air Traffic Conflict Resolution",
-        "text": "Exact and approximate approaches for resolving aircraft conflicts, exploring mathematical modeling, combinatorial optimization and metaheuristics in an air-traffic-management context."
+        "text": "Exact and approximate approaches for resolving aircraft conflicts, exploring mathematical modeling, combinatorial optimization and metaheuristics in an air-traffic-management context.",
+        "linkLabel": "ENAC website"
       }
     }
   },
@@ -162,11 +168,6 @@
       "kicker": "MASTER'S DEGREE · 2016 — 2018",
       "title": "Computer Science — Operations Research & Optimization",
       "institution": "ENAC · ENSEEIHT · ISAE-SUPAERO · INSA · Université Toulouse III — Paul Sabatier"
-    },
-    "cert": {
-      "kicker": "CERTIFICATE · 2019",
-      "title": "Applied Data Science & Machine Learning",
-      "institution": "Columbia Engineering & Emeritus Institute of Management"
     }
   },
   "certs": {

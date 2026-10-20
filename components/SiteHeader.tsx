@@ -1,6 +1,7 @@
 import {getTranslations} from 'next-intl/server';
 import {ArrowUpRight} from 'lucide-react';
 import {routing} from '../i18n/routing';
+import MobileMenu, {type MenuLink} from './MobileMenu';
 
 const localeDisplay = {
   en: {flag: '🇺🇸', code: 'EN', label: 'English'},
@@ -27,24 +28,29 @@ export default async function SiteHeader({
   const onCerts = path === '/certifications';
   const published = menuOrder.filter((l) => (routing.locales as readonly string[]).includes(l));
 
+  // Same entries for the desktop nav and the mobile menu.
+  const links: MenuLink[] = [
+    {href: `${home}#about`, label: t('nav.about')},
+    {href: `${home}#expertise`, label: t('nav.expertise')},
+    {href: `${home}#projects`, label: t('nav.projects')},
+    {href: `${home}#experience`, label: t('nav.experience')},
+    {href: `${home}#education`, label: t('nav.education')},
+    {href: certsHref, label: t('nav.certifications'), current: onCerts},
+    {href: `${home}#contact`, label: t('nav.contact')},
+  ];
+
   return (
     <header className="nav">
       <nav aria-label={t('nav.label')}>
-        <a href={`${home}#about`}>{t('nav.about')}</a>
-        <a href={`${home}#expertise`}>{t('nav.expertise')}</a>
-        <a href={`${home}#projects`}>{t('nav.projects')}</a>
-        <a href={`${home}#experience`}>{t('nav.experience')}</a>
-        <a href={`${home}#education`}>{t('nav.education')}</a>
-        <a href={certsHref} aria-current={onCerts ? 'page' : undefined}>
-          {t('nav.certifications')}
-        </a>
-        <a href={`${home}#contact`}>{t('nav.contact')}</a>
+        {links.map((link) => (
+          <a key={link.href} href={link.href} aria-current={link.current ? 'page' : undefined}>
+            {link.label}
+          </a>
+        ))}
       </nav>
 
-      {/* The main nav is hidden on small screens: keep the certifications page reachable. */}
-      <a className="nav-certs-mobile" href={certsHref} aria-current={onCerts ? 'page' : undefined}>
-        {t('nav.certifications')}
-      </a>
+      {/* The main nav is hidden below 900px: the mobile menu gives access to every entry. */}
+      <MobileMenu links={links} buttonLabel={t('nav.menu')} navLabel={t('nav.mobileLabel')}/>
 
       <details className="language-selector">
         <summary>
@@ -60,7 +66,7 @@ export default async function SiteHeader({
         </div>
       </details>
 
-      <a className="nav-cta" href="mailto:hazzi.enac@gmail.com">
+      <a className="nav-cta" href="mailto:azzi.hassane@gmail.com">
         {t('nav.letsTalk')} <ArrowUpRight size={16}/>
       </a>
     </header>

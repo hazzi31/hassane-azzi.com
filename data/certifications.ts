@@ -322,7 +322,7 @@ export const certifications: Certification[] = [
     linkKind: 'link',
     date: '2019-01',
     dateEnd: '2019-05',
-    skills: [],
+    skills: ['Python', 'Data Science', 'Machine Learning'],
   },
 
   // ── Data Science & Scientific Computing ───────────────────────────────

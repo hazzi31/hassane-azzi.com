@@ -4,7 +4,6 @@ import {setRequestLocale} from 'next-intl/server';
 import {
   ArrowUpRight,
   Mail,
-  ExternalLink,
   Cpu,
   BrainCircuit,
   BarChart3,
@@ -29,6 +28,14 @@ const projectTags = {
   p02: ["C++", "GLPK", "Optimization", "EMS", "MATLAB"],
   p03: ["C++", "Simulation", "Backend", "Testing", "Architecture"],
   p04: ["OR", "Metaheuristics", "ATM", "Algorithms"],
+} as const;
+// External pages related to each project (verified on 2026-10-20).
+// p03 and p04 point to the organisation's website, not to a project page.
+const projectLinks = {
+  p01: "https://www.enerbird.com/produits/",
+  p02: "https://www.segulatechnologies.com/en/news/e3s-an-intelligent-energy-management-tool-for-sailboats/",
+  p03: "https://scle.fr/",
+  p04: "https://www.enac.fr/fr",
 } as const;
 
 const expKeys = ['e01', 'e02', 'e03', 'e04'] as const;
@@ -60,18 +67,10 @@ export default async function Home({
               <a className="button primary" href="#projects">
                 {t('hero.exploreWork')} <ArrowUpRight size={18}/>
               </a>
-              <a
-                className="button secondary"
-                href="https://www.hassane-azzi.fr/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t('hero.viewFullProfile')} <ExternalLink size={16}/>
-              </a>
             </div>
             <div className="socials" role="group" aria-label={t('hero.profilesLabel')}>
               <ProfileLinks/>
-              <a href="mailto:hazzi.enac@gmail.com"><Mail size={18}/> Email</a>
+              <a href="mailto:azzi.hassane@gmail.com"><Mail size={18}/> Email</a>
             </div>
           </div>
 
@@ -167,8 +166,16 @@ export default async function Home({
                 <div className="tags">
                   {projectTags[key].map(tag => <span key={tag}>{tag}</span>)}
                 </div>
+                <a
+                  className="project-link"
+                  href={projectLinks[key]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t(`projects.items.${key}.linkLabel`)} <ArrowUpRight size={16} aria-hidden="true"/>
+                  <span className="sr-only"> ({t('projects.newTab')})</span>
+                </a>
               </div>
-              <ArrowUpRight className="project-arrow" size={30}/>
             </article>
           ))}
         </div>
@@ -231,16 +238,6 @@ export default async function Home({
               <span>Machine Learning</span>
             </div>
           </div>
-          <div className="edu-card">
-            <p className="kicker">{t('education.cert.kicker')}</p>
-            <h3>{t('education.cert.title')}</h3>
-            <p>{t('education.cert.institution')}</p>
-            <div className="tags">
-              <span>Python</span>
-              <span>Data Science</span>
-              <span>Machine Learning</span>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -276,7 +273,7 @@ export default async function Home({
           </div>
           <div>
             <p>{t('contact.text')}</p>
-            <a className="button primary" href="mailto:hazzi.enac@gmail.com">
+            <a className="button primary" href="mailto:azzi.hassane@gmail.com">
               {t('contact.cta')} <Mail size={17}/>
             </a>
             <div className="contact-meta">
