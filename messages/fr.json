@@ -164,6 +164,20 @@
     "label": "FORMATION",
     "titlePart1": "Fondements ",
     "titleEmphasis": "scientifiques.",
+    "cnam": {
+      "kicker": "CERTIFICAT DE SPÉCIALISATION",
+      "status": "En cours",
+      "title": "Certificat de spécialisation Intelligence artificielle et calcul scientifique",
+      "institution": "Conservatoire national des arts et métiers (CNAM)",
+      "period": "Octobre 2026 – Aujourd'hui",
+      "mode": "Formation ouverte et à distance (FOAD)",
+      "code": "Code CS10900A",
+      "programme": "Au programme : outils mathématiques pour l'optimisation numérique et combinatoire (RCP219), introduction au calcul scientifique (CSC109) et une UE au choix parmi l'apprentissage statistique et l'apprentissage profond (RCP208, RCP209), l'intelligence artificielle, l'optimisation et le contrôle (RCP218) ou l'intelligence artificielle et le calcul scientifique (CSC217).",
+      "tagsLabel": "Thématiques du programme",
+      "tags": ["Optimisation numérique & combinatoire", "Calcul scientifique & simulation numérique", "Apprentissage statistique", "Réseaux de neurones & Deep Learning", "IA, optimisation & contrôle", "Réduction de modèles & analyse de sensibilité"],
+      "linksLabel": "Lien vers la formation",
+      "linkLabel": "Programme officiel du CNAM"
+    },
     "master": {
       "kicker": "MASTER · 2016 — 2018",
       "title": "Informatique — Recherche opérationnelle & optimisation",

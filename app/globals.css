@@ -121,6 +121,11 @@ h2 { font-size: clamp(2.8rem, 5vw, 5.8rem); line-height: .92; letter-spacing: -.
 .edu-card { border: 1px solid var(--line); padding: 34px; background: rgba(255,255,255,.25); }
 .edu-card h3 { font-size: 1.65rem; letter-spacing: -.04em; margin: 18px 0; }
 .edu-card p:not(.kicker) { color: var(--muted); }
+.edu-grid > div:first-child { grid-row: span 2; }
+.edu-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.edu-status { font-size: .58rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); border: 1px solid var(--ink); border-radius: 99px; padding: 3px 9px; }
+.edu-card .edu-meta { font-size: .85rem; margin: -6px 0 16px; }
+.edu-card .edu-programme { font-size: .9rem; line-height: 1.55; margin: 0 0 18px; }
 .certs-category { margin-bottom: 60px; }
 .certs-category:last-child { margin-bottom: 0; }
 .certs-category-title { font-size: .7rem; letter-spacing: .16em; font-weight: 800; text-transform: uppercase; color: var(--muted); border-top: 1px solid var(--line); padding-top: 17px; margin-bottom: 20px; }
