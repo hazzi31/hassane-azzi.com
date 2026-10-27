@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import {useEffect, useId, useRef, useState} from 'react';
 import {Menu, X} from 'lucide-react';
 
@@ -57,13 +58,13 @@ export default function MobileMenu({
         <ul>
           {links.map((link) => (
             <li key={link.href}>
-              <a
+              <Link
                 href={link.href}
                 aria-current={link.current ? 'page' : undefined}
                 onClick={() => setOpen(false)}
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

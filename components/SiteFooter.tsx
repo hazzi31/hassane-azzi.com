@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {getTranslations} from 'next-intl/server';
 
 export default async function SiteFooter({locale}: {locale: string}) {
@@ -7,7 +8,7 @@ export default async function SiteFooter({locale}: {locale: string}) {
     <footer>
       <div><b>HA<span>.</span></b> {t('footer.copyright')}</div>
       <div className="footer-links">
-        <a href={`/${locale}/certifications`}>{t('nav.certifications')}</a>
+        <Link href={`/${locale}/certifications`}>{t('nav.certifications')}</Link>
         <a href="https://github.com/hazzi31" target="_blank" rel="noreferrer">GitHub</a>
         <a
           href="https://www.linkedin.com/in/hassane-azzi-312a8024/"

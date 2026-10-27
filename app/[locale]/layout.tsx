@@ -118,7 +118,9 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
   return (
-    <html lang={locale}>
+    // data-scroll-behavior: Next.js turns off the CSS smooth scrolling during
+    // route changes, so a new page opens at its top without animation.
+    <html lang={locale} data-scroll-behavior="smooth">
       <body>{children}</body>
     </html>
   );

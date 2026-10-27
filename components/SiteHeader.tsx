@@ -1,6 +1,8 @@
+import Link from 'next/link';
 import {getTranslations} from 'next-intl/server';
 import {ArrowUpRight} from 'lucide-react';
 import {routing} from '../i18n/routing';
+import {sectionPages} from '../i18n/sections';
 import MobileMenu, {type MenuLink} from './MobileMenu';
 
 const localeDisplay = {
@@ -23,29 +25,29 @@ export default async function SiteHeader({
 }) {
   const t = await getTranslations();
   const current = localeDisplay[locale as keyof typeof localeDisplay] ?? localeDisplay.en;
-  const home = path ? `/${locale}` : '';
-  const certsHref = `/${locale}/certifications`;
-  const onCerts = path === '/certifications';
   const published = menuOrder.filter((l) => (routing.locales as readonly string[]).includes(l));
 
-  // Same entries for the desktop nav and the mobile menu.
-  const links: MenuLink[] = [
-    {href: `${home}#about`, label: t('nav.about')},
-    {href: `${home}#expertise`, label: t('nav.expertise')},
-    {href: `${home}#projects`, label: t('nav.projects')},
-    {href: `${home}#experience`, label: t('nav.experience')},
-    {href: `${home}#education`, label: t('nav.education')},
-    {href: certsHref, label: t('nav.certifications'), current: onCerts},
-    {href: `${home}#contact`, label: t('nav.contact')},
-  ];
+  // Same entries for the desktop nav and the mobile menu: one page per section,
+  // Certifications in its usual place (before Contact).
+  const menuPaths = [...sectionPages.slice(0, -1), 'certifications', 'contact'] as const;
+  const links: MenuLink[] = menuPaths.map((section) => ({
+    href: `/${locale}/${section}`,
+    label: t(`nav.${section}`),
+    current: path === `/${section}`,
+  }));
 
   return (
     <header className="nav">
+      <Link className="nav-home" href={`/${locale}`} aria-current={path === '' ? 'page' : undefined}>
+        <b>HA<span>.</span></b>
+        <span className="sr-only"> Hassane AZZI</span>
+      </Link>
+
       <nav aria-label={t('nav.label')}>
         {links.map((link) => (
-          <a key={link.href} href={link.href} aria-current={link.current ? 'page' : undefined}>
+          <Link key={link.href} href={link.href} aria-current={link.current ? 'page' : undefined}>
             {link.label}
-          </a>
+          </Link>
         ))}
       </nav>
 
