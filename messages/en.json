@@ -164,6 +164,20 @@
     "label": "EDUCATION",
     "titlePart1": "Scientific ",
     "titleEmphasis": "foundations.",
+    "cnam": {
+      "kicker": "SPECIALIZATION CERTIFICATE",
+      "status": "In progress",
+      "title": "Specialization Certificate in Artificial Intelligence and Scientific Computing",
+      "institution": "Conservatoire national des arts et métiers (CNAM)",
+      "period": "October 2026 – Present",
+      "mode": "Distance learning (FOAD)",
+      "code": "Program code CS10900A",
+      "programme": "Programme: mathematical tools for numerical and combinatorial optimization (RCP219), introduction to scientific computing (CSC109), and one elective among statistical learning and deep learning (RCP208, RCP209), artificial intelligence, optimization and control (RCP218), or artificial intelligence and scientific computing (CSC217).",
+      "tagsLabel": "Programme topics",
+      "tags": ["Numerical & combinatorial optimization", "Scientific computing & numerical simulation", "Statistical learning", "Neural networks & deep learning", "AI, optimization & control", "Model reduction & sensitivity analysis"],
+      "linksLabel": "Programme link",
+      "linkLabel": "Official CNAM programme page"
+    },
     "master": {
       "kicker": "MASTER'S DEGREE · 2016 — 2018",
       "title": "Computer Science — Operations Research & Optimization",
