@@ -1,12 +1,14 @@
 import {MetadataRoute} from 'next';
 import {routing} from '../i18n/routing';
 import {languageAlternates, localizedUrl} from '../i18n/seo';
+import {sectionPages} from '../i18n/sections';
 
 const BASE = 'https://www.hassane-azzi.com';
 
 // Fixed date — update when content changes significantly
-const LAST_MODIFIED = new Date('2026-09-20');
+const LAST_MODIFIED = new Date('2026-10-27');
 const CERTS_LAST_MODIFIED = new Date('2026-10-19');
+const SECTIONS_LAST_MODIFIED = new Date('2026-10-27');
 
 const LANGUAGES = {
   en: `${BASE}/en`,
@@ -49,5 +51,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       alternates: {languages: languageAlternates('/certifications')},
     })),
+    // Section pages (/{locale}/about, /expertise…): one entry per published locale.
+    ...sectionPages.flatMap((section) =>
+      routing.locales.map((locale) => ({
+        url: localizedUrl(locale, `/${section}`),
+        lastModified: SECTIONS_LAST_MODIFIED,
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+        alternates: {languages: languageAlternates(`/${section}`)},
+      })),
+    ),
   ];
 }

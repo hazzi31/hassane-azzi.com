@@ -1,57 +1,18 @@
 import Image from "next/image";
+import Link from "next/link";
 import {getTranslations} from 'next-intl/server';
 import {setRequestLocale} from 'next-intl/server';
-import {
-  ArrowUpRight,
-  Mail,
-  Cpu,
-  BrainCircuit,
-  BarChart3,
-  Code2,
-  Database,
-  Cloud,
-  Languages,
-  MapPin
-} from "lucide-react";
+import {ArrowUpRight, Mail} from "lucide-react";
 import {certDomains, certifications, countByDomain} from '../../data/certifications';
+import {sectionPages} from '../../i18n/sections';
 import SiteHeader from '../../components/SiteHeader';
 import SiteFooter from '../../components/SiteFooter';
 import ProfileLinks from '../../components/ProfileLinks';
+import LegacyHashRedirect from '../../components/LegacyHashRedirect';
 
-const skillIcons = [Cpu, BrainCircuit, Code2, BarChart3, Cloud, Database] as const;
-const skillKeys = ['optimization', 'ml', 'software', 'industrial', 'cloud', 'data'] as const;
-
-const projectKeys = ['p01', 'p02', 'p03', 'p04'] as const;
-const projectNumbers = {p01: "01", p02: "02", p03: "03", p04: "04"} as const;
-const projectTags = {
-  p01: ["MILP", "MINLP", "Python", "Pyomo", "ML", "SCADA"],
-  p02: ["C++", "GLPK", "Optimization", "EMS", "MATLAB"],
-  p03: ["C++", "Simulation", "Backend", "Testing", "Architecture"],
-  p04: ["OR", "Metaheuristics", "ATM", "Algorithms"],
-} as const;
-// External pages related to each project (verified on 2026-10-20), in the
-// order of projects.items.<key>.linkLabels.
-const projectLinks = {
-  p01: ["https://www.enerbird.com/produits/"],
-  p02: ["https://www.segulatechnologies.com/en/news/e3s-an-intelligent-energy-management-tool-for-sailboats/"],
-  p03: [
-    "https://scle.fr/services/ingenierie-expertise/conception-hardware-et-software/",
-    "https://scle.fr/services/ingenierie-expertise/",
-  ],
-  p04: ["https://optim.recherche.enac.fr/"],
-} as const;
-
-// Official page of the CNAM certificate CS10900A (started October 2026, in progress).
-const cnamLink = "https://www.cnam.fr/formation/sciences/mathematiques/certificat-de-specialisation-intelligence-artificielle-et-calcul-scientifique-1";
-
-// Official pages of the master's programme, in the order of education.master.links.
-const masterLinks = [
-  "https://www.utoulouse.fr/decouvrir-nos-diplomes/master-parcours-recherche-operationnelle-optimisation-ro",
-  "https://m2rit-ro.recherche.enac.fr/",
-] as const;
-
-const expKeys = ['e01', 'e02', 'e03', 'e04'] as const;
-
+// Home: entry point of the site. Each section has its own page; the home page
+// keeps the hero, the marquee, links to the section pages and the
+// certifications preview.
 export default async function Home({
   params,
 }: {
@@ -65,6 +26,7 @@ export default async function Home({
 
   return (
     <main>
+      <LegacyHashRedirect locale={locale} sections={sectionPages}/>
       <SiteHeader locale={locale}/>
 
       <section className="hero section" id="top">
@@ -76,9 +38,9 @@ export default async function Home({
             </h1>
             <p className="lead">{t('hero.description')}</p>
             <div className="actions">
-              <a className="button primary" href="#projects">
+              <Link className="button primary" href={`/${locale}/projects`}>
                 {t('hero.exploreWork')} <ArrowUpRight size={18}/>
-              </a>
+              </Link>
             </div>
             <div className="socials" role="group" aria-label={t('hero.profilesLabel')}>
               <ProfileLinks/>
@@ -104,204 +66,25 @@ export default async function Home({
         <div>{t('marquee')}</div>
       </section>
 
-      <section className="section about" id="about">
-        <div className="section-label">01 / {t('about.label')}</div>
-        <div className="about-grid">
-          <div>
-            <h2>
-              {t('about.titlePart1')}<em>{t('about.titleEmphasis')}</em>
-            </h2>
-          </div>
-          <div>
-            <p className="big-copy">
-              {t('about.bigCopy1')}
-              <strong>{t('about.bigCopyBold1')}</strong>
-              {t('about.bigCopy2')}
-              <strong>{t('about.bigCopyBold2')}</strong>
-              {t('about.bigCopy3')}
-              <strong>{t('about.bigCopyBold3')}</strong>
-              {t('about.bigCopy4')}
-            </p>
-            <div className="profile-block">
-              <h3>{t('about.profileTitle')}</h3>
-              <p>{t('about.profile1')}</p>
-              <p>{t('about.profile2')}</p>
-              <p>{t('about.profile3')}</p>
-            </div>
-            <div className="facts">
-              <div><b>MSc</b><span>{t('about.factMsc')}</span></div>
-              <div><b>ENAC</b><span>{t('about.factEnac')}</span></div>
-              <div><b>3</b><span>{t('about.factLanguages')}</span></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section dark-section" id="expertise">
-        <div className="section-label">02 / {t('expertise.label')}</div>
-        <div className="dark-head">
-          <h2>
-            {t('expertise.titlePart1')}<em>{t('expertise.titleEmphasis')}</em>
-          </h2>
-          <p>{t('expertise.subtitle')}</p>
-        </div>
-        <div className="skills-grid">
-          {skillKeys.map((key, i) => {
-            const Icon = skillIcons[i];
-            return (
-              <article className="skill" key={key}>
-                <Icon size={24}/>
-                <h3>{t(`expertise.skills.${key}.title`)}</h3>
-                <p>{t(`expertise.skills.${key}.desc`)}</p>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="section projects" id="projects">
-        <div className="section-label">03 / {t('projects.label')}</div>
-        <div className="project-head">
-          <h2>
-            {t('projects.titlePart1')}<em>{t('projects.titleEmphasis')}</em>
-          </h2>
-          <p>{t('projects.subtitle')}</p>
-        </div>
-        <div className="project-list">
-          {projectKeys.map((key) => {
-            const linkLabels = t.raw(`projects.items.${key}.linkLabels`) as string[];
-            return (
-              <article className="project" key={key}>
-                <div className="project-number">{projectNumbers[key]}</div>
-                <div className="project-main">
-                  <p className="kicker">{t(`projects.items.${key}.category`)}</p>
-                  <h3>{t(`projects.items.${key}.title`)}</h3>
-                  <p>{t(`projects.items.${key}.text`)}</p>
-                  <div className="tags">
-                    {projectTags[key].map(tag => <span key={tag}>{tag}</span>)}
-                  </div>
-                  <div className="project-links">
-                    {projectLinks[key].map((href, i) => (
-                      <a
-                        key={href}
-                        className="project-link"
-                        href={href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {linkLabels[i]} <ArrowUpRight size={16} aria-hidden="true"/>
-                        <span className="sr-only"> ({t('projects.newTab')})</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="section experience" id="experience">
-        <div className="section-label">04 / {t('experience.label')}</div>
-        <h2>
-          {t('experience.titlePart1')}<em>{t('experience.titleEmphasis')}</em>
-        </h2>
-        <div className="timeline">
-          {expKeys.map((key) => {
-            const missions = t.raw(`experience.items.${key}.missions`) as string[];
-            const techTags = String(t(`experience.items.${key}.tech`)).split(' · ');
-            return (
-              <article className="timeline-item" key={key}>
-                <div className="date">
-                  <span>{t(`experience.items.${key}.date`)}</span>
-                  <span className="timeline-date-detail">{t(`experience.items.${key}.dateDetail`)}</span>
-                  <span className="timeline-type">{t(`experience.items.${key}.type`)}</span>
-                </div>
-                <div>
-                  <h3>{t(`experience.items.${key}.role`)}</h3>
-                  <p className="company">
-                    {t(`experience.items.${key}.company`)} · {t(`experience.items.${key}.place`)}
-                  </p>
-                  <p>{t(`experience.items.${key}.text`)}</p>
-                  <ul className="timeline-missions">
-                    {missions.map((mission, i) => (
-                      <li key={i}>{mission}</li>
-                    ))}
-                  </ul>
-                  <div className="tags timeline-tech">
-                    {techTags.map(tag => <span key={tag}>{tag}</span>)}
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="section education" id="education">
-        <div className="section-label">05 / {t('education.label')}</div>
-        <div className="edu-grid">
-          <div>
-            <h2>
-              {t('education.titlePart1')}<em>{t('education.titleEmphasis')}</em>
-            </h2>
-          </div>
-          <div className="edu-card">
-            <div className="edu-head">
-              <p className="kicker">{t('education.cnam.kicker')}</p>
-              <span className="edu-status">{t('education.cnam.status')}</span>
-            </div>
-            <h3>{t('education.cnam.title')}</h3>
-            <p>{t('education.cnam.institution')}</p>
-            <p className="edu-meta">
-              <time dateTime="2026-10">{t('education.cnam.period')}</time>
-              {' · '}{t('education.cnam.mode')}{' · '}{t('education.cnam.code')}
-            </p>
-            <p className="edu-programme">{t('education.cnam.programme')}</p>
-            <div className="tags" role="list" aria-label={t('education.cnam.tagsLabel')}>
-              {(t.raw('education.cnam.tags') as string[]).map(tag => <span role="listitem" key={tag}>{tag}</span>)}
-            </div>
-            <ul className="edu-links" aria-label={t('education.cnam.linksLabel')}>
-              <li>
-                <a className="project-link" href={cnamLink} target="_blank" rel="noopener noreferrer">
-                  {t('education.cnam.linkLabel')} <ArrowUpRight size={16} aria-hidden="true"/>
-                  <span className="sr-only"> ({t('projects.newTab')})</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="edu-card">
-            <p className="kicker">{t('education.master.kicker')}</p>
-            <h3>{t('education.master.title')}</h3>
-            <p>{t('education.master.institution')}</p>
-            <div className="tags">
-              <span>Mathematical Programming</span>
-              <span>Combinatorial Optimization</span>
-              <span>Graphs & Networks</span>
-              <span>Air Traffic Management</span>
-              <span>Machine Learning</span>
-            </div>
-            <ul className="edu-links" aria-label={t('education.master.linksLabel')}>
-              {(t.raw('education.master.links') as string[]).map((label, i) => (
-                <li key={masterLinks[i]}>
-                  <a
-                    className="project-link"
-                    href={masterLinks[i]}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {label} <ArrowUpRight size={16} aria-hidden="true"/>
-                    <span className="sr-only"> ({t('projects.newTab')})</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+      {/* Links to the section pages: menu label + the section's own title. */}
+      <section className="section home-sections">
+        <ul className="home-grid">
+          {sectionPages.map((section) => (
+            <li key={section}>
+              <Link className="home-card" href={`/${locale}/${section}`}>
+                <span className="home-card-label">{t(`nav.${section}`)}</span>
+                <span className="home-card-title">
+                  {t(`${section}.titlePart1`)}<em>{t(`${section}.titleEmphasis`)}</em>
+                </span>
+                <ArrowUpRight size={18} aria-hidden="true"/>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section className="section" id="certs">
-        <div className="section-label">06 / {t('certs.label')}</div>
+        <div className="section-label">{t('certs.label')}</div>
         <div className="certs-preview-head">
           <h2>{t('certs.titlePart1')}<em>{t('certs.titleEmphasis')}</em></h2>
           <p>{t('certs.previewText', {count: certifications.length})}</p>
@@ -309,38 +92,17 @@ export default async function Home({
         <ul className="certs-preview">
           {certDomains.map((domain) => (
             <li key={domain}>
-              <a href={`/${locale}/certifications?domain=${domain}`}>
+              <Link href={`/${locale}/certifications?domain=${domain}`}>
                 <span className="certs-preview-count">{certCounts[domain]}</span>
                 <span className="certs-preview-label">{t(`certDomains.${domain}`)}</span>
                 <ArrowUpRight size={18} aria-hidden="true"/>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
-        <a className="button primary certs-preview-cta" href={`/${locale}/certifications`}>
+        <Link className="button primary certs-preview-cta" href={`/${locale}/certifications`}>
           {t('certs.viewAll', {count: certifications.length})} <ArrowUpRight size={18}/>
-        </a>
-      </section>
-
-      <section className="section contact" id="contact">
-        <div className="contact-card">
-          <div>
-            <p className="eyebrow">07 / {t('contact.label')}</p>
-            <h2>
-              {t('contact.titlePart1')}<em>{t('contact.titleEmphasis')}</em>
-            </h2>
-          </div>
-          <div>
-            <p>{t('contact.text')}</p>
-            <a className="button primary" href="mailto:azzi.hassane@gmail.com">
-              {t('contact.cta')} <Mail size={17}/>
-            </a>
-            <div className="contact-meta">
-              <span><MapPin size={16}/> {t('contact.location')}</span>
-              <span><Languages size={16}/> {t('contact.languages')}</span>
-            </div>
-          </div>
-        </div>
+        </Link>
       </section>
 
       <SiteFooter locale={locale}/>
