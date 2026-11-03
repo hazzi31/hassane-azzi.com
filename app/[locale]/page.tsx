@@ -50,7 +50,7 @@ export default async function Home({
 
           <div className="hero-visual">
             <Image
-              src="/logo-personnel-harmonized.png"
+              src="/images/hassane-azzi-profile.png"
               alt="Hassane AZZI"
               width={500}
               height={500}
